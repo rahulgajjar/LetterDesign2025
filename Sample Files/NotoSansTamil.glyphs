@@ -1,5 +1,9 @@
 {
+.appVersion = "3337";
 .formatVersion = 3;
+DisplayStrings = (
+"ற"
+);
 axes = (
 {
 name = Weight;
@@ -28,7 +32,6 @@ code = "aavowelsigntamil aulengthmarktamil uuvowelsignalttamil uuvowelsigntamil 
 name = class4;
 }
 );
-familyName = "Noto Sans Tamil";
 customParameters = (
 {
 name = glyphOrder;
@@ -311,16 +314,27 @@ value = (
 );
 }
 );
+date = "2025-02-10 09:33:35 +0000";
+familyName = "Noto Sans Tamil";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
-languagesystem tml2 dflt;
-
-";
-tag = Languagesystems;
+languagesystem tml2 dflt;";
+name = Languagesystems;
 }
 );
 features = (
+{
+automatic = 1;
+code = "feature abvs;
+feature akhn;
+feature haln;
+feature psts;
+feature subs;
+feature sups;
+";
+tag = aalt;
+},
 {
 code = "sub u11301 uni0951 by candrabindu_0951_tamil;
 sub u11301 uni1CDA by candrabindu_1CDA_tamil;
@@ -458,21 +472,14 @@ code = "    sub two.tamil by uni00B2;
 tag = sups;
 },
 {
-code = "# Automatic Code Start";
-tag = abvm;
-},
-{
-code = "# Automatic Code Start";
-tag = blwm;
-},
-{
 code = "# Automatic Code Start
 
-    pos @class1 anusvaratamil' $anusvara_shift;
-    pos @class2 anusvaratamil' $anusvara_shift;
-    pos @class1 @class4 anusvaratamil' $anusvara_shift;
-    pos @class2 @class4 anusvaratamil' $anusvara_shift;
-    pos @class2 [ivowelsigntamil ivowelsign4tamil ivowelsign3tamil ivowelsign2tamil ivowelsign1tamil] anusvaratamil' $anusvara_shift;";
+    pos @class1 anusvaratamil' 30;
+    pos @class2 anusvaratamil' 30;
+    pos @class1 @class4 anusvaratamil' 30;
+    pos @class2 @class4 anusvaratamil' 30;
+    pos @class2 [ivowelsigntamil ivowelsign4tamil ivowelsign3tamil ivowelsign2tamil ivowelsign1tamil] anusvaratamil' 30;
+";
 tag = dist;
 }
 );
@@ -568,12 +575,12 @@ name = "Alignment Zones";
 value = (
 {
 name = "cap height";
-position = 714;
+pos = 714;
 size = 12;
 },
 {
 name = "x-height";
-position = 569;
+pos = 569;
 size = 12;
 }
 );
@@ -590,9 +597,10 @@ size = 12;
 );
 guides = (
 {
-position = "{0, 250}";
+pos = (0,250);
 }
 );
+iconName = Bold;
 id = "B104C26B-E498-4044-8731-03CD50407EE8";
 metricValues = (
 {
@@ -606,19 +614,17 @@ pos = 714;
 pos = -370;
 },
 {
-pos = 0;
 },
 {
 over = 12;
 pos = 569;
 }
 );
+name = Bold;
 stemValues = (
 129,
 188
 );
-iconName = Bold;
-name = Bold;
 }
 );
 glyphs = (
@@ -677,8 +683,6 @@ width = 600;
 glyphname = NULL;
 layers = (
 {
-background = {
-};
 layerId = "B104C26B-E498-4044-8731-03CD50407EE8";
 width = 0;
 }
@@ -689,8 +693,6 @@ unicode = 0;
 glyphname = CR;
 layers = (
 {
-background = {
-};
 layerId = "B104C26B-E498-4044-8731-03CD50407EE8";
 width = 260;
 }
@@ -701,8 +703,6 @@ unicode = 13;
 glyphname = space;
 layers = (
 {
-background = {
-};
 layerId = "B104C26B-E498-4044-8731-03CD50407EE8";
 width = 260;
 }
@@ -716,7 +716,7 @@ layers = (
 anchors = (
 {
 name = _Anchor8;
-position = "{200, -29}";
+pos = (200,-29);
 }
 );
 background = {
@@ -1026,11 +1026,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{638, -29}";
+pos = (638,-29);
 },
 {
 name = Anchor8;
-position = "{638, -29}";
+pos = (638,-29);
 }
 );
 background = {
@@ -1222,11 +1222,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{766, -29}";
+pos = (766,-29);
 },
 {
 name = Anchor8;
-position = "{766, -29}";
+pos = (766,-29);
 }
 );
 background = {
@@ -1508,7 +1508,7 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{631, -29}";
+pos = (631,-29);
 }
 );
 background = {
@@ -1796,11 +1796,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{449, -29}";
+pos = (449,-29);
 },
 {
 name = Anchor8;
-position = "{449, -29}";
+pos = (449,-29);
 }
 );
 background = {
@@ -1920,11 +1920,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{549, -29}";
+pos = (549,-29);
 },
 {
 name = Anchor8;
-position = "{549, -29}";
+pos = (549,-29);
 }
 );
 background = {
@@ -2072,11 +2072,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{869, -29}";
+pos = (869,-29);
 },
 {
 name = Anchor8;
-position = "{869, -29}";
+pos = (869,-29);
 }
 );
 background = {
@@ -2346,15 +2346,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{465, -29}";
+pos = (465,-29);
 },
 {
 name = Anchor12;
-position = "{465, -78}";
+pos = (465,-78);
 },
 {
 name = Anchor8;
-position = "{465, -29}";
+pos = (465,-29);
 }
 );
 background = {
@@ -2492,11 +2492,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{465, -29}";
+pos = (465,-29);
 },
 {
 name = Anchor8;
-position = "{465, -29}";
+pos = (465,-29);
 }
 );
 background = {
@@ -2638,11 +2638,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{577, -29}";
+pos = (577,-29);
 },
 {
 name = Anchor8;
-position = "{577, -29}";
+pos = (577,-29);
 }
 );
 background = {
@@ -2916,11 +2916,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{591, -29}";
+pos = (591,-29);
 },
 {
 name = Anchor8;
-position = "{591, -29}";
+pos = (591,-29);
 }
 );
 background = {
@@ -3190,11 +3190,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{591, -29}";
+pos = (591,-29);
 },
 {
 name = Anchor8;
-position = "{591, -29}";
+pos = (591,-29);
 }
 );
 background = {
@@ -3498,11 +3498,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{1213, -29}";
+pos = (1213,-29);
 },
 {
 name = Anchor8;
-position = "{1213, -29}";
+pos = (1213,-29);
 }
 );
 background = {
@@ -3542,15 +3542,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{483, -29}";
+pos = (483,-29);
 },
 {
 name = Anchor12;
-position = "{483, -78}";
+pos = (483,-78);
 },
 {
 name = Anchor8;
-position = "{483, -29}";
+pos = (483,-29);
 }
 );
 background = {
@@ -3696,15 +3696,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{622, -29}";
+pos = (622,-29);
 },
 {
 name = Anchor12;
-position = "{622, -78}";
+pos = (622,-78);
 },
 {
 name = Anchor8;
-position = "{622, -29}";
+pos = (622,-29);
 }
 );
 background = {
@@ -3826,15 +3826,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{432, -29}";
+pos = (432,-29);
 },
 {
 name = Anchor12;
-position = "{432, -78}";
+pos = (432,-78);
 },
 {
 name = Anchor8;
-position = "{432, -29}";
+pos = (432,-29);
 }
 );
 background = {
@@ -3938,15 +3938,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{576, -29}";
+pos = (576,-29);
 },
 {
 name = Anchor12;
-position = "{575, -308}";
+pos = (575,-308);
 },
 {
 name = Anchor8;
-position = "{576, -29}";
+pos = (576,-29);
 }
 );
 background = {
@@ -4230,15 +4230,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{712, -29}";
+pos = (712,-29);
 },
 {
 name = Anchor12;
-position = "{721, -33}";
+pos = (721,-33);
 },
 {
 name = Anchor8;
-position = "{712, -29}";
+pos = (712,-29);
 }
 );
 background = {
@@ -4458,15 +4458,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{380, -29}";
+pos = (380,-29);
 },
 {
 name = Anchor12;
-position = "{380, -78}";
+pos = (380,-78);
 },
 {
 name = Anchor8;
-position = "{380, -29}";
+pos = (380,-29);
 }
 );
 background = {
@@ -4510,15 +4510,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{955, -29}";
+pos = (955,-29);
 },
 {
 name = Anchor12;
-position = "{955, -78}";
+pos = (955,-78);
 },
 {
 name = Anchor8;
-position = "{955, -29}";
+pos = (955,-29);
 }
 );
 background = {
@@ -4784,15 +4784,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{485, -29}";
+pos = (485,-29);
 },
 {
 name = Anchor12;
-position = "{485, -217}";
+pos = (485,-217);
 },
 {
 name = Anchor8;
-position = "{485, -29}";
+pos = (485,-29);
 }
 );
 background = {
@@ -4972,15 +4972,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{468, -29}";
+pos = (468,-29);
 },
 {
 name = Anchor12;
-position = "{468, -217}";
+pos = (468,-217);
 },
 {
 name = Anchor8;
-position = "{468, -29}";
+pos = (468,-29);
 }
 );
 background = {
@@ -5134,15 +5134,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{711, -29}";
+pos = (711,-29);
 },
 {
 name = Anchor12;
-position = "{711, -78}";
+pos = (711,-78);
 },
 {
 name = Anchor8;
-position = "{711, -29}";
+pos = (711,-29);
 }
 );
 background = {
@@ -5332,15 +5332,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{427, -29}";
+pos = (427,-29);
 },
 {
 name = Anchor12;
-position = "{427, -78}";
+pos = (427,-78);
 },
 {
 name = Anchor8;
-position = "{427, -29}";
+pos = (427,-29);
 }
 );
 background = {
@@ -5388,15 +5388,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{484, -29}";
+pos = (484,-29);
 },
 {
 name = Anchor12;
-position = "{484, -78}";
+pos = (484,-78);
 },
 {
 name = Anchor8;
-position = "{484, -29}";
+pos = (484,-29);
 }
 );
 background = {
@@ -5508,15 +5508,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{535, -29}";
+pos = (535,-29);
 },
 {
 name = Anchor12;
-position = "{535, -78}";
+pos = (535,-78);
 },
 {
 name = Anchor8;
-position = "{535, -29}";
+pos = (535,-29);
 }
 );
 background = {
@@ -5618,15 +5618,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{364, -29}";
+pos = (364,-29);
 },
 {
 name = Anchor12;
-position = "{357, -225}";
+pos = (357,-225);
 },
 {
 name = Anchor8;
-position = "{364, -29}";
+pos = (364,-29);
 }
 );
 background = {
@@ -5682,15 +5682,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{515, -29}";
+pos = (515,-29);
 },
 {
 name = Anchor12;
-position = "{516, -217}";
+pos = (516,-217);
 },
 {
 name = Anchor8;
-position = "{515, -29}";
+pos = (515,-29);
 }
 );
 background = {
@@ -5868,15 +5868,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{590, -29}";
+pos = (590,-29);
 },
 {
 name = Anchor12;
-position = "{590, -78}";
+pos = (590,-78);
 },
 {
 name = Anchor8;
-position = "{590, -29}";
+pos = (590,-29);
 }
 );
 background = {
@@ -6044,15 +6044,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{622, -29}";
+pos = (622,-29);
 },
 {
 name = Anchor12;
-position = "{622, -78}";
+pos = (622,-78);
 },
 {
 name = Anchor8;
-position = "{622, -29}";
+pos = (622,-29);
 }
 );
 background = {
@@ -6194,15 +6194,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{484, -29}";
+pos = (484,-29);
 },
 {
 name = Anchor12;
-position = "{759, -231}";
+pos = (759,-231);
 },
 {
 name = Anchor8;
-position = "{484, -29}";
+pos = (484,-29);
 }
 );
 background = {
@@ -6436,15 +6436,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{597, -29}";
+pos = (597,-29);
 },
 {
 name = Anchor12;
-position = "{597, -78}";
+pos = (597,-78);
 },
 {
 name = Anchor8;
-position = "{597, -29}";
+pos = (597,-29);
 }
 );
 background = {
@@ -6574,15 +6574,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{667, -29}";
+pos = (667,-29);
 },
 {
 name = Anchor12;
-position = "{667, -78}";
+pos = (667,-78);
 },
 {
 name = Anchor8;
-position = "{667, -29}";
+pos = (667,-29);
 }
 );
 background = {
@@ -6744,15 +6744,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{797, -29}";
+pos = (797,-29);
 },
 {
 name = Anchor12;
-position = "{737, -78}";
+pos = (737,-78);
 },
 {
 name = Anchor8;
-position = "{797, -29}";
+pos = (797,-29);
 }
 );
 background = {
@@ -6982,15 +6982,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{749, -29}";
+pos = (749,-29);
 },
 {
 name = Anchor12;
-position = "{749, -78}";
+pos = (749,-78);
 },
 {
 name = Anchor8;
-position = "{749, -29}";
+pos = (749,-29);
 }
 );
 background = {
@@ -7206,15 +7206,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{942, -29}";
+pos = (942,-29);
 },
 {
 name = Anchor12;
-position = "{942, -217}";
+pos = (942,-217);
 },
 {
 name = Anchor8;
-position = "{942, -29}";
+pos = (942,-29);
 }
 );
 background = {
@@ -9052,7 +9052,7 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{353, -29}";
+pos = (353,-29);
 }
 );
 background = {
@@ -9142,7 +9142,7 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{483, -29}";
+pos = (483,-29);
 }
 );
 background = {
@@ -9172,7 +9172,7 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{549, -29}";
+pos = (549,-29);
 }
 );
 background = {
@@ -9288,7 +9288,7 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{594, -29}";
+pos = (594,-29);
 }
 );
 background = {
@@ -9388,7 +9388,7 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{564, -29}";
+pos = (564,-29);
 }
 );
 background = {
@@ -9514,7 +9514,7 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{615, -29}";
+pos = (615,-29);
 }
 );
 background = {
@@ -9660,7 +9660,7 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{602, -29}";
+pos = (602,-29);
 }
 );
 background = {
@@ -9800,7 +9800,7 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{465, -29}";
+pos = (465,-29);
 }
 );
 background = {
@@ -9830,7 +9830,7 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{638, -29}";
+pos = (638,-29);
 }
 );
 background = {
@@ -9992,7 +9992,7 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{713, -29}";
+pos = (713,-29);
 }
 );
 background = {
@@ -12572,11 +12572,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{1097, -29}";
+pos = (1097,-29);
 },
 {
 name = Anchor8;
-position = "{1097, -29}";
+pos = (1097,-29);
 }
 );
 background = {
@@ -12893,11 +12893,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{483, -29}";
+pos = (483,-29);
 },
 {
 name = Anchor12;
-position = "{483, -78}";
+pos = (483,-78);
 }
 );
 background = {
@@ -12936,11 +12936,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{622, -29}";
+pos = (622,-29);
 },
 {
 name = Anchor12;
-position = "{622, -78}";
+pos = (622,-78);
 }
 );
 background = {
@@ -12979,11 +12979,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{432, -29}";
+pos = (432,-29);
 },
 {
 name = Anchor12;
-position = "{432, -78}";
+pos = (432,-78);
 }
 );
 background = {
@@ -13022,11 +13022,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{576, -29}";
+pos = (576,-29);
 },
 {
 name = Anchor12;
-position = "{583, -308}";
+pos = (583,-308);
 }
 );
 background = {
@@ -13065,11 +13065,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{712, -29}";
+pos = (712,-29);
 },
 {
 name = Anchor12;
-position = "{721, -33}";
+pos = (721,-33);
 }
 );
 background = {
@@ -13108,11 +13108,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{380, -29}";
+pos = (380,-29);
 },
 {
 name = Anchor12;
-position = "{380, -78}";
+pos = (380,-78);
 }
 );
 background = {
@@ -13151,11 +13151,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{955, -29}";
+pos = (955,-29);
 },
 {
 name = Anchor12;
-position = "{955, -78}";
+pos = (955,-78);
 }
 );
 background = {
@@ -13194,11 +13194,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{485, -29}";
+pos = (485,-29);
 },
 {
 name = Anchor12;
-position = "{487, -217}";
+pos = (487,-217);
 }
 );
 background = {
@@ -13237,11 +13237,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{468, -29}";
+pos = (468,-29);
 },
 {
 name = Anchor12;
-position = "{468, -217}";
+pos = (468,-217);
 }
 );
 background = {
@@ -13280,11 +13280,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{711, -29}";
+pos = (711,-29);
 },
 {
 name = Anchor12;
-position = "{711, -78}";
+pos = (711,-78);
 }
 );
 background = {
@@ -13323,11 +13323,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{427, -29}";
+pos = (427,-29);
 },
 {
 name = Anchor12;
-position = "{427, -78}";
+pos = (427,-78);
 }
 );
 background = {
@@ -13366,11 +13366,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{484, -29}";
+pos = (484,-29);
 },
 {
 name = Anchor12;
-position = "{484, -78}";
+pos = (484,-78);
 }
 );
 background = {
@@ -13409,11 +13409,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{535, -29}";
+pos = (535,-29);
 },
 {
 name = Anchor12;
-position = "{535, -78}";
+pos = (535,-78);
 }
 );
 background = {
@@ -13452,11 +13452,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{364, -29}";
+pos = (364,-29);
 },
 {
 name = Anchor12;
-position = "{357, -225}";
+pos = (357,-225);
 }
 );
 background = {
@@ -13495,11 +13495,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{515, -29}";
+pos = (515,-29);
 },
 {
 name = Anchor12;
-position = "{520, -217}";
+pos = (520,-217);
 }
 );
 background = {
@@ -13538,11 +13538,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{590, -29}";
+pos = (590,-29);
 },
 {
 name = Anchor12;
-position = "{590, -78}";
+pos = (590,-78);
 }
 );
 background = {
@@ -13581,11 +13581,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{622, -29}";
+pos = (622,-29);
 },
 {
 name = Anchor12;
-position = "{622, -78}";
+pos = (622,-78);
 }
 );
 background = {
@@ -13624,11 +13624,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{484, -29}";
+pos = (484,-29);
 },
 {
 name = Anchor12;
-position = "{760, -231}";
+pos = (760,-231);
 }
 );
 background = {
@@ -13667,11 +13667,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{597, -29}";
+pos = (597,-29);
 },
 {
 name = Anchor12;
-position = "{597, -78}";
+pos = (597,-78);
 }
 );
 background = {
@@ -13710,11 +13710,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{667, -29}";
+pos = (667,-29);
 },
 {
 name = Anchor12;
-position = "{667, -78}";
+pos = (667,-78);
 }
 );
 background = {
@@ -13753,11 +13753,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{797, -29}";
+pos = (797,-29);
 },
 {
 name = Anchor12;
-position = "{737, -78}";
+pos = (737,-78);
 }
 );
 background = {
@@ -13796,11 +13796,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{749, -29}";
+pos = (749,-29);
 },
 {
 name = Anchor12;
-position = "{749, -78}";
+pos = (749,-78);
 }
 );
 background = {
@@ -13839,11 +13839,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{942, -29}";
+pos = (942,-29);
 },
 {
 name = Anchor12;
-position = "{942, -217}";
+pos = (942,-217);
 }
 );
 background = {
@@ -13882,7 +13882,7 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{1097, -29}";
+pos = (1097,-29);
 }
 );
 background = {
@@ -13921,11 +13921,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{483, -29}";
+pos = (483,-29);
 },
 {
 name = Anchor12;
-position = "{483, -78}";
+pos = (483,-78);
 }
 );
 background = {
@@ -13964,15 +13964,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{622, -29}";
+pos = (622,-29);
 },
 {
 name = Anchor12;
-position = "{635, -34}";
+pos = (635,-34);
 },
 {
 name = Anchor8;
-position = "{622, -29}";
+pos = (622,-29);
 }
 );
 background = {
@@ -14131,15 +14131,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{780, -29}";
+pos = (780,-29);
 },
 {
 name = Anchor12;
-position = "{780, -78}";
+pos = (780,-78);
 },
 {
 name = Anchor8;
-position = "{780, -29}";
+pos = (780,-29);
 }
 );
 background = {
@@ -14352,15 +14352,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{622, -29}";
+pos = (622,-29);
 },
 {
 name = Anchor12;
-position = "{622, -78}";
+pos = (622,-78);
 },
 {
 name = Anchor8;
-position = "{622, -29}";
+pos = (622,-29);
 }
 );
 background = {
@@ -14569,15 +14569,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{622, -29}";
+pos = (622,-29);
 },
 {
 name = Anchor12;
-position = "{622, -78}";
+pos = (622,-78);
 },
 {
 name = Anchor8;
-position = "{622, -29}";
+pos = (622,-29);
 }
 );
 background = {
@@ -14694,15 +14694,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{744, -29}";
+pos = (744,-29);
 },
 {
 name = Anchor12;
-position = "{764, -42}";
+pos = (764,-42);
 },
 {
 name = Anchor8;
-position = "{744, -29}";
+pos = (744,-29);
 }
 );
 background = {
@@ -14927,11 +14927,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{432, -29}";
+pos = (432,-29);
 },
 {
 name = Anchor12;
-position = "{432, -78}";
+pos = (432,-78);
 }
 );
 background = {
@@ -14970,15 +14970,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{507, -29}";
+pos = (507,-29);
 },
 {
 name = Anchor12;
-position = "{507, -78}";
+pos = (507,-78);
 },
 {
 name = Anchor8;
-position = "{507, -29}";
+pos = (507,-29);
 }
 );
 background = {
@@ -15099,15 +15099,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{734, -29}";
+pos = (734,-29);
 },
 {
 name = Anchor12;
-position = "{795, -31}";
+pos = (795,-31);
 },
 {
 name = Anchor8;
-position = "{734, -29}";
+pos = (734,-29);
 }
 );
 background = {
@@ -15316,11 +15316,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{576, -29}";
+pos = (576,-29);
 },
 {
 name = Anchor12;
-position = "{583, -308}";
+pos = (583,-308);
 }
 );
 background = {
@@ -15359,15 +15359,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{712, -29}";
+pos = (712,-29);
 },
 {
 name = Anchor12;
-position = "{721, -33}";
+pos = (721,-33);
 },
 {
 name = Anchor8;
-position = "{712, -29}";
+pos = (712,-29);
 }
 );
 background = {
@@ -15406,15 +15406,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{733, -29}";
+pos = (733,-29);
 },
 {
 name = Anchor12;
-position = "{1030, -234}";
+pos = (1030,-234);
 },
 {
 name = Anchor8;
-position = "{733, -29}";
+pos = (733,-29);
 }
 );
 background = {
@@ -15681,15 +15681,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{931, -29}";
+pos = (931,-29);
 },
 {
 name = Anchor12;
-position = "{1030, -234}";
+pos = (1030,-234);
 },
 {
 name = Anchor8;
-position = "{931, -29}";
+pos = (931,-29);
 }
 );
 background = {
@@ -15968,15 +15968,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{450, -29}";
+pos = (450,-29);
 },
 {
 name = Anchor12;
-position = "{280, -78}";
+pos = (280,-78);
 },
 {
 name = Anchor8;
-position = "{450, -29}";
+pos = (450,-29);
 }
 );
 background = {
@@ -16089,15 +16089,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{450, -29}";
+pos = (450,-29);
 },
 {
 name = Anchor12;
-position = "{450, -78}";
+pos = (450,-78);
 },
 {
 name = Anchor8;
-position = "{450, -29}";
+pos = (450,-29);
 }
 );
 background = {
@@ -16232,11 +16232,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{592, -29}";
+pos = (592,-29);
 },
 {
 name = Anchor12;
-position = "{961, -191}";
+pos = (961,-191);
 }
 );
 background = {
@@ -16379,11 +16379,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{543, -29}";
+pos = (543,-29);
 },
 {
 name = Anchor12;
-position = "{890, -237}";
+pos = (890,-237);
 }
 );
 background = {
@@ -16564,15 +16564,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{955, -29}";
+pos = (955,-29);
 },
 {
 name = Anchor12;
-position = "{955, -78}";
+pos = (955,-78);
 },
 {
 name = Anchor8;
-position = "{955, -29}";
+pos = (955,-29);
 }
 );
 background = {
@@ -16611,15 +16611,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{1083, -29}";
+pos = (1083,-29);
 },
 {
 name = Anchor12;
-position = "{1622, -234}";
+pos = (1622,-234);
 },
 {
 name = Anchor8;
-position = "{1083, -29}";
+pos = (1083,-29);
 }
 );
 background = {
@@ -16974,15 +16974,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{1281, -29}";
+pos = (1281,-29);
 },
 {
 name = Anchor12;
-position = "{1622, -234}";
+pos = (1622,-234);
 },
 {
 name = Anchor8;
-position = "{1281, -29}";
+pos = (1281,-29);
 }
 );
 background = {
@@ -17349,11 +17349,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{485, -29}";
+pos = (485,-29);
 },
 {
 name = Anchor12;
-position = "{485, -217}";
+pos = (485,-217);
 }
 );
 background = {
@@ -17392,15 +17392,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{645, -29}";
+pos = (645,-29);
 },
 {
 name = Anchor12;
-position = "{920, -234}";
+pos = (920,-234);
 },
 {
 name = Anchor8;
-position = "{645, -29}";
+pos = (645,-29);
 }
 );
 background = {
@@ -17603,15 +17603,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{843, -29}";
+pos = (843,-29);
 },
 {
 name = Anchor12;
-position = "{920, -234}";
+pos = (920,-234);
 },
 {
 name = Anchor8;
-position = "{843, -29}";
+pos = (843,-29);
 }
 );
 background = {
@@ -17826,11 +17826,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{468, -29}";
+pos = (468,-29);
 },
 {
 name = Anchor12;
-position = "{469, -217}";
+pos = (469,-217);
 }
 );
 background = {
@@ -17869,15 +17869,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{632, -29}";
+pos = (632,-29);
 },
 {
 name = Anchor12;
-position = "{877, -234}";
+pos = (877,-234);
 },
 {
 name = Anchor8;
-position = "{632, -29}";
+pos = (632,-29);
 }
 );
 background = {
@@ -18040,15 +18040,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{830, -29}";
+pos = (830,-29);
 },
 {
 name = Anchor12;
-position = "{877, -234}";
+pos = (877,-234);
 },
 {
 name = Anchor8;
-position = "{830, -29}";
+pos = (830,-29);
 }
 );
 background = {
@@ -18237,15 +18237,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{711, -29}";
+pos = (711,-29);
 },
 {
 name = Anchor12;
-position = "{711, -78}";
+pos = (711,-78);
 },
 {
 name = Anchor8;
-position = "{711, -29}";
+pos = (711,-29);
 }
 );
 background = {
@@ -18284,15 +18284,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{839, -29}";
+pos = (839,-29);
 },
 {
 name = Anchor12;
-position = "{1199, -234}";
+pos = (1199,-234);
 },
 {
 name = Anchor8;
-position = "{839, -29}";
+pos = (839,-29);
 }
 );
 background = {
@@ -18571,15 +18571,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{1037, -29}";
+pos = (1037,-29);
 },
 {
 name = Anchor12;
-position = "{1199, -234}";
+pos = (1199,-234);
 },
 {
 name = Anchor8;
-position = "{1037, -29}";
+pos = (1037,-29);
 }
 );
 background = {
@@ -18870,11 +18870,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{427, -29}";
+pos = (427,-29);
 },
 {
 name = Anchor12;
-position = "{427, -78}";
+pos = (427,-78);
 }
 );
 background = {
@@ -19013,15 +19013,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{427, -29}";
+pos = (427,-29);
 },
 {
 name = Anchor12;
-position = "{369, -78}";
+pos = (369,-78);
 },
 {
 name = Anchor8;
-position = "{427, -29}";
+pos = (427,-29);
 }
 );
 background = {
@@ -19072,15 +19072,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{550, -29}";
+pos = (550,-29);
 },
 {
 name = Anchor12;
-position = "{511, -317}";
+pos = (511,-317);
 },
 {
 name = Anchor8;
-position = "{550, -29}";
+pos = (550,-29);
 }
 );
 background = {
@@ -19221,11 +19221,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{484, -29}";
+pos = (484,-29);
 },
 {
 name = Anchor12;
-position = "{484, -78}";
+pos = (484,-78);
 }
 );
 background = {
@@ -19346,15 +19346,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{640, -29}";
+pos = (640,-29);
 },
 {
 name = Anchor12;
-position = "{932, -234}";
+pos = (932,-234);
 },
 {
 name = Anchor8;
-position = "{640, -29}";
+pos = (640,-29);
 }
 );
 background = {
@@ -19519,15 +19519,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{724, -29}";
+pos = (724,-29);
 },
 {
 name = Anchor12;
-position = "{1099, -234}";
+pos = (1099,-234);
 },
 {
 name = Anchor8;
-position = "{724, -29}";
+pos = (724,-29);
 }
 );
 background = {
@@ -19730,11 +19730,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{535, -29}";
+pos = (535,-29);
 },
 {
 name = Anchor12;
-position = "{535, -78}";
+pos = (535,-78);
 }
 );
 background = {
@@ -19927,15 +19927,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{535, -29}";
+pos = (535,-29);
 },
 {
 name = Anchor12;
-position = "{535, -78}";
+pos = (535,-78);
 },
 {
 name = Anchor8;
-position = "{535, -29}";
+pos = (535,-29);
 }
 );
 background = {
@@ -20054,15 +20054,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{658, -29}";
+pos = (658,-29);
 },
 {
 name = Anchor12;
-position = "{628, -37}";
+pos = (628,-37);
 },
 {
 name = Anchor8;
-position = "{658, -29}";
+pos = (658,-29);
 }
 );
 background = {
@@ -20289,11 +20289,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{364, -29}";
+pos = (364,-29);
 },
 {
 name = Anchor12;
-position = "{357, -225}";
+pos = (357,-225);
 }
 );
 background = {
@@ -20332,15 +20332,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{618, -29}";
+pos = (618,-29);
 },
 {
 name = Anchor12;
-position = "{644, -29}";
+pos = (644,-29);
 },
 {
 name = Anchor8;
-position = "{618, -29}";
+pos = (618,-29);
 }
 );
 background = {
@@ -20473,15 +20473,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{704, -29}";
+pos = (704,-29);
 },
 {
 name = Anchor12;
-position = "{765, -29}";
+pos = (765,-29);
 },
 {
 name = Anchor8;
-position = "{704, -29}";
+pos = (704,-29);
 }
 );
 background = {
@@ -20652,11 +20652,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{515, -29}";
+pos = (515,-29);
 },
 {
 name = Anchor12;
-position = "{516, -217}";
+pos = (516,-217);
 }
 );
 background = {
@@ -20695,15 +20695,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{675, -29}";
+pos = (675,-29);
 },
 {
 name = Anchor12;
-position = "{928, -234}";
+pos = (928,-234);
 },
 {
 name = Anchor8;
-position = "{675, -29}";
+pos = (675,-29);
 }
 );
 background = {
@@ -20910,15 +20910,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{873, -29}";
+pos = (873,-29);
 },
 {
 name = Anchor12;
-position = "{928, -234}";
+pos = (928,-234);
 },
 {
 name = Anchor8;
-position = "{873, -29}";
+pos = (873,-29);
 }
 );
 background = {
@@ -21137,15 +21137,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{590, -29}";
+pos = (590,-29);
 },
 {
 name = Anchor12;
-position = "{590, -78}";
+pos = (590,-78);
 },
 {
 name = Anchor8;
-position = "{590, -29}";
+pos = (590,-29);
 }
 );
 background = {
@@ -21378,15 +21378,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{590, -29}";
+pos = (590,-29);
 },
 {
 name = Anchor12;
-position = "{590, -78}";
+pos = (590,-78);
 },
 {
 name = Anchor8;
-position = "{590, -29}";
+pos = (590,-29);
 }
 );
 background = {
@@ -21645,15 +21645,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{746, -29}";
+pos = (746,-29);
 },
 {
 name = Anchor12;
-position = "{954, -234}";
+pos = (954,-234);
 },
 {
 name = Anchor8;
-position = "{746, -29}";
+pos = (746,-29);
 }
 );
 background = {
@@ -21922,15 +21922,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{945, -29}";
+pos = (945,-29);
 },
 {
 name = Anchor12;
-position = "{954, -234}";
+pos = (954,-234);
 },
 {
 name = Anchor8;
-position = "{945, -29}";
+pos = (945,-29);
 }
 );
 background = {
@@ -22211,15 +22211,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{622, -29}";
+pos = (622,-29);
 },
 {
 name = Anchor12;
-position = "{622, -78}";
+pos = (622,-78);
 },
 {
 name = Anchor8;
-position = "{622, -29}";
+pos = (622,-29);
 }
 );
 background = {
@@ -22258,15 +22258,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{874, -29}";
+pos = (874,-29);
 },
 {
 name = Anchor12;
-position = "{878, -29}";
+pos = (878,-29);
 },
 {
 name = Anchor8;
-position = "{874, -29}";
+pos = (874,-29);
 }
 );
 background = {
@@ -22489,15 +22489,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{971, -29}";
+pos = (971,-29);
 },
 {
 name = Anchor12;
-position = "{1004, -29}";
+pos = (1004,-29);
 },
 {
 name = Anchor8;
-position = "{971, -29}";
+pos = (971,-29);
 }
 );
 background = {
@@ -22758,11 +22758,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{484, -29}";
+pos = (484,-29);
 },
 {
 name = Anchor12;
-position = "{759, -231}";
+pos = (759,-231);
 }
 );
 background = {
@@ -22883,15 +22883,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{638, -29}";
+pos = (638,-29);
 },
 {
 name = Anchor12;
-position = "{547, -26}";
+pos = (547,-26);
 },
 {
 name = Anchor8;
-position = "{638, -29}";
+pos = (638,-29);
 }
 );
 background = {
@@ -23102,15 +23102,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{724, -29}";
+pos = (724,-29);
 },
 {
 name = Anchor12;
-position = "{711, -26}";
+pos = (711,-26);
 },
 {
 name = Anchor8;
-position = "{724, -29}";
+pos = (724,-29);
 }
 );
 background = {
@@ -23359,15 +23359,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{597, -29}";
+pos = (597,-29);
 },
 {
 name = Anchor12;
-position = "{597, -78}";
+pos = (597,-78);
 },
 {
 name = Anchor8;
-position = "{597, -29}";
+pos = (597,-29);
 }
 );
 background = {
@@ -23588,15 +23588,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{597, -29}";
+pos = (597,-29);
 },
 {
 name = Anchor12;
-position = "{597, -78}";
+pos = (597,-78);
 },
 {
 name = Anchor8;
-position = "{597, -29}";
+pos = (597,-29);
 }
 );
 background = {
@@ -23743,15 +23743,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{719, -29}";
+pos = (719,-29);
 },
 {
 name = Anchor12;
-position = "{715, -37}";
+pos = (715,-37);
 },
 {
 name = Anchor8;
-position = "{719, -29}";
+pos = (719,-29);
 }
 );
 background = {
@@ -24006,15 +24006,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{797, -29}";
+pos = (797,-29);
 },
 {
 name = Anchor12;
-position = "{737, -78}";
+pos = (737,-78);
 },
 {
 name = Anchor8;
-position = "{797, -29}";
+pos = (797,-29);
 }
 );
 background = {
@@ -24053,15 +24053,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{749, -29}";
+pos = (749,-29);
 },
 {
 name = Anchor12;
-position = "{749, -78}";
+pos = (749,-78);
 },
 {
 name = Anchor8;
-position = "{749, -29}";
+pos = (749,-29);
 }
 );
 background = {
@@ -24342,15 +24342,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{749, -29}";
+pos = (749,-29);
 },
 {
 name = Anchor12;
-position = "{749, -78}";
+pos = (749,-78);
 },
 {
 name = Anchor8;
-position = "{749, -29}";
+pos = (749,-29);
 }
 );
 background = {
@@ -24657,15 +24657,15 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{942, -29}";
+pos = (942,-29);
 },
 {
 name = Anchor12;
-position = "{942, -217}";
+pos = (942,-217);
 },
 {
 name = Anchor8;
-position = "{942, -29}";
+pos = (942,-29);
 }
 );
 background = {
@@ -24704,11 +24704,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{1097, -29}";
+pos = (1097,-29);
 },
 {
 name = Anchor8;
-position = "{1097, -29}";
+pos = (1097,-29);
 }
 );
 background = {
@@ -24747,11 +24747,11 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{866, -29}";
+pos = (866,-29);
 },
 {
 name = Anchor8;
-position = "{866, -29}";
+pos = (866,-29);
 }
 );
 background = {
@@ -28205,8 +28205,6 @@ unicode = 126;
 glyphname = uni00A0.tamil;
 layers = (
 {
-background = {
-};
 layerId = "B104C26B-E498-4044-8731-03CD50407EE8";
 width = 260;
 }
@@ -28950,7 +28948,7 @@ layers = (
 anchors = (
 {
 name = _Anchor10;
-position = "{-278, -264}";
+pos = (-278,-264);
 }
 );
 background = {
@@ -28990,7 +28988,7 @@ layers = (
 anchors = (
 {
 name = _Anchor10;
-position = "{-278, 288}";
+pos = (-278,288);
 }
 );
 background = {
@@ -29116,7 +29114,7 @@ layers = (
 anchors = (
 {
 name = _Anchor10;
-position = "{-278, -264}";
+pos = (-278,-264);
 }
 );
 background = {
@@ -29174,7 +29172,7 @@ layers = (
 anchors = (
 {
 name = Anchor10;
-position = "{292, -29}";
+pos = (292,-29);
 }
 );
 background = {
@@ -29310,7 +29308,7 @@ layers = (
 anchors = (
 {
 name = _Anchor10;
-position = "{-278, -264}";
+pos = (-278,-264);
 }
 );
 background = {
@@ -29428,7 +29426,7 @@ layers = (
 anchors = (
 {
 name = _Anchor10;
-position = "{-278, -264}";
+pos = (-278,-264);
 }
 );
 background = {
@@ -29469,7 +29467,7 @@ layers = (
 anchors = (
 {
 name = _Anchor10;
-position = "{-278, -264}";
+pos = (-278,-264);
 }
 );
 background = {
@@ -29662,7 +29660,7 @@ layers = (
 anchors = (
 {
 name = _Anchor12;
-position = "{-278, -78}";
+pos = (-278,-78);
 }
 );
 background = {
@@ -29718,7 +29716,7 @@ layers = (
 anchors = (
 {
 name = _Anchor12;
-position = "{-278, -78}";
+pos = (-278,-78);
 }
 );
 background = {
@@ -30145,8 +30143,6 @@ unicode = 8324;
 glyphname = uni200B;
 layers = (
 {
-background = {
-};
 layerId = "B104C26B-E498-4044-8731-03CD50407EE8";
 width = 0;
 }
@@ -30562,7 +30558,9 @@ axesValues = (
 26,
 100
 );
-interpolationWeight = 26;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = Thin;
 weightClass = 100;
 },
@@ -30571,7 +30569,9 @@ axesValues = (
 39,
 100
 );
-interpolationWeight = 39;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraLight;
 weightClass = 200;
 },
@@ -30580,7 +30580,9 @@ axesValues = (
 58,
 100
 );
-interpolationWeight = 58;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = Light;
 weightClass = 300;
 },
@@ -30589,7 +30591,9 @@ axesValues = (
 90,
 100
 );
-interpolationWeight = 90;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = Regular;
 },
 {
@@ -30597,7 +30601,9 @@ axesValues = (
 108,
 100
 );
-interpolationWeight = 108;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = Medium;
 weightClass = 500;
 },
@@ -30606,7 +30612,9 @@ axesValues = (
 128,
 100
 );
-interpolationWeight = 128;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiBold;
 weightClass = 600;
 },
@@ -30615,7 +30623,9 @@ axesValues = (
 151,
 100
 );
-interpolationWeight = 151;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = Bold;
 weightClass = 700;
 },
@@ -30624,7 +30634,9 @@ axesValues = (
 169,
 100
 );
-interpolationWeight = 169;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraBold;
 weightClass = 800;
 },
@@ -30633,7 +30645,9 @@ axesValues = (
 190,
 100
 );
-interpolationWeight = 190;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = Black;
 weightClass = 900;
 },
@@ -30642,8 +30656,9 @@ axesValues = (
 26,
 89
 );
-interpolationWeight = 26;
-interpolationWidth = 89;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiCondensedThin;
 weightClass = 100;
 widthClass = 4;
@@ -30653,8 +30668,9 @@ axesValues = (
 39,
 89
 );
-interpolationWeight = 39;
-interpolationWidth = 89;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiCondensedExtraLight;
 weightClass = 200;
 widthClass = 4;
@@ -30664,8 +30680,9 @@ axesValues = (
 58,
 89
 );
-interpolationWeight = 58;
-interpolationWidth = 89;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiCondensedLight;
 weightClass = 300;
 widthClass = 4;
@@ -30675,8 +30692,9 @@ axesValues = (
 90,
 89
 );
-interpolationWeight = 90;
-interpolationWidth = 89;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiCondensed;
 widthClass = 4;
 },
@@ -30685,8 +30703,9 @@ axesValues = (
 108,
 89
 );
-interpolationWeight = 108;
-interpolationWidth = 89;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiCondensedMedium;
 weightClass = 500;
 widthClass = 4;
@@ -30696,8 +30715,9 @@ axesValues = (
 128,
 89
 );
-interpolationWeight = 128;
-interpolationWidth = 89;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiCondensedSemiBold;
 weightClass = 600;
 widthClass = 4;
@@ -30707,8 +30727,9 @@ axesValues = (
 151,
 89
 );
-interpolationWeight = 151;
-interpolationWidth = 89;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiCondensedBold;
 weightClass = 700;
 widthClass = 4;
@@ -30718,8 +30739,9 @@ axesValues = (
 169,
 89
 );
-interpolationWeight = 169;
-interpolationWidth = 89;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiCondensedExtraBold;
 weightClass = 800;
 widthClass = 4;
@@ -30729,8 +30751,9 @@ axesValues = (
 190,
 89
 );
-interpolationWeight = 190;
-interpolationWidth = 89;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiCondensedBlack;
 weightClass = 900;
 widthClass = 4;
@@ -30740,8 +30763,9 @@ axesValues = (
 26,
 79
 );
-interpolationWeight = 26;
-interpolationWidth = 79;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = CondensedThin;
 weightClass = 100;
 widthClass = 3;
@@ -30751,8 +30775,9 @@ axesValues = (
 39,
 79
 );
-interpolationWeight = 39;
-interpolationWidth = 79;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = CondensedExtraLight;
 weightClass = 200;
 widthClass = 3;
@@ -30762,8 +30787,9 @@ axesValues = (
 58,
 79
 );
-interpolationWeight = 58;
-interpolationWidth = 79;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = CondensedLight;
 weightClass = 300;
 widthClass = 3;
@@ -30773,8 +30799,9 @@ axesValues = (
 90,
 79
 );
-interpolationWeight = 90;
-interpolationWidth = 79;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = Condensed;
 widthClass = 3;
 },
@@ -30783,8 +30810,9 @@ axesValues = (
 108,
 79
 );
-interpolationWeight = 108;
-interpolationWidth = 79;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = CondensedMedium;
 weightClass = 500;
 widthClass = 3;
@@ -30794,8 +30822,9 @@ axesValues = (
 128,
 79
 );
-interpolationWeight = 128;
-interpolationWidth = 79;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = CondensedSemiBold;
 weightClass = 600;
 widthClass = 3;
@@ -30805,8 +30834,9 @@ axesValues = (
 151,
 79
 );
-interpolationWeight = 151;
-interpolationWidth = 79;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = CondensedBold;
 weightClass = 700;
 widthClass = 3;
@@ -30816,8 +30846,9 @@ axesValues = (
 169,
 79
 );
-interpolationWeight = 169;
-interpolationWidth = 79;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = CondensedExtraBold;
 weightClass = 800;
 widthClass = 3;
@@ -30827,8 +30858,9 @@ axesValues = (
 190,
 79
 );
-interpolationWeight = 190;
-interpolationWidth = 79;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = CondensedBlack;
 weightClass = 900;
 widthClass = 3;
@@ -30838,8 +30870,9 @@ axesValues = (
 26,
 70
 );
-interpolationWeight = 26;
-interpolationWidth = 70;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraCondensedThin;
 weightClass = 100;
 widthClass = 2;
@@ -30849,8 +30882,9 @@ axesValues = (
 39,
 70
 );
-interpolationWeight = 39;
-interpolationWidth = 70;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraCondensedExtraLight;
 weightClass = 200;
 widthClass = 2;
@@ -30860,8 +30894,9 @@ axesValues = (
 58,
 70
 );
-interpolationWeight = 58;
-interpolationWidth = 70;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraCondensedLight;
 weightClass = 300;
 widthClass = 2;
@@ -30871,8 +30906,9 @@ axesValues = (
 90,
 70
 );
-interpolationWeight = 90;
-interpolationWidth = 70;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraCondensed;
 widthClass = 2;
 },
@@ -30881,8 +30917,9 @@ axesValues = (
 108,
 70
 );
-interpolationWeight = 108;
-interpolationWidth = 70;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraCondensedMedium;
 weightClass = 500;
 widthClass = 2;
@@ -30892,8 +30929,9 @@ axesValues = (
 128,
 70
 );
-interpolationWeight = 128;
-interpolationWidth = 70;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraCondensedSemiBold;
 weightClass = 600;
 widthClass = 2;
@@ -30903,8 +30941,9 @@ axesValues = (
 151,
 70
 );
-interpolationWeight = 151;
-interpolationWidth = 70;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraCondensedBold;
 weightClass = 700;
 widthClass = 2;
@@ -30914,8 +30953,9 @@ axesValues = (
 169,
 70
 );
-interpolationWeight = 169;
-interpolationWidth = 70;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraCondensedExtraBold;
 weightClass = 800;
 widthClass = 2;
@@ -30925,8 +30965,9 @@ axesValues = (
 190,
 70
 );
-interpolationWeight = 190;
-interpolationWidth = 70;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraCondensedBlack;
 weightClass = 900;
 widthClass = 2;
@@ -30936,7 +30977,9 @@ axesValues = (
 26,
 100
 );
-interpolationWeight = 26;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = Thin;
 weightClass = 100;
 },
@@ -30945,7 +30988,9 @@ axesValues = (
 39,
 100
 );
-interpolationWeight = 39;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraLight;
 weightClass = 200;
 },
@@ -30954,7 +30999,9 @@ axesValues = (
 58,
 100
 );
-interpolationWeight = 58;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = Light;
 weightClass = 300;
 },
@@ -30963,7 +31010,9 @@ axesValues = (
 90,
 100
 );
-interpolationWeight = 90;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = Regular;
 },
 {
@@ -30971,7 +31020,9 @@ axesValues = (
 108,
 100
 );
-interpolationWeight = 108;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = Medium;
 weightClass = 500;
 },
@@ -30980,7 +31031,9 @@ axesValues = (
 128,
 100
 );
-interpolationWeight = 128;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiBold;
 weightClass = 600;
 },
@@ -30989,7 +31042,9 @@ axesValues = (
 151,
 100
 );
-interpolationWeight = 151;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = Bold;
 weightClass = 700;
 },
@@ -30998,7 +31053,9 @@ axesValues = (
 169,
 100
 );
-interpolationWeight = 169;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraBold;
 weightClass = 800;
 },
@@ -31007,7 +31064,9 @@ axesValues = (
 190,
 100
 );
-interpolationWeight = 190;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = Black;
 weightClass = 900;
 },
@@ -31016,8 +31075,9 @@ axesValues = (
 26,
 89
 );
-interpolationWeight = 26;
-interpolationWidth = 89;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiCondensedThin;
 weightClass = 100;
 widthClass = 4;
@@ -31027,8 +31087,9 @@ axesValues = (
 39,
 89
 );
-interpolationWeight = 39;
-interpolationWidth = 89;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiCondensedExtraLight;
 weightClass = 200;
 widthClass = 4;
@@ -31038,8 +31099,9 @@ axesValues = (
 58,
 89
 );
-interpolationWeight = 58;
-interpolationWidth = 89;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiCondensedLight;
 weightClass = 300;
 widthClass = 4;
@@ -31049,8 +31111,9 @@ axesValues = (
 90,
 89
 );
-interpolationWeight = 90;
-interpolationWidth = 89;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiCondensed;
 widthClass = 4;
 },
@@ -31059,8 +31122,9 @@ axesValues = (
 108,
 89
 );
-interpolationWeight = 108;
-interpolationWidth = 89;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiCondensedMedium;
 weightClass = 500;
 widthClass = 4;
@@ -31070,8 +31134,9 @@ axesValues = (
 128,
 89
 );
-interpolationWeight = 128;
-interpolationWidth = 89;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiCondensedSemiBold;
 weightClass = 600;
 widthClass = 4;
@@ -31081,8 +31146,9 @@ axesValues = (
 151,
 89
 );
-interpolationWeight = 151;
-interpolationWidth = 89;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiCondensedBold;
 weightClass = 700;
 widthClass = 4;
@@ -31092,8 +31158,9 @@ axesValues = (
 169,
 89
 );
-interpolationWeight = 169;
-interpolationWidth = 89;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiCondensedExtraBold;
 weightClass = 800;
 widthClass = 4;
@@ -31103,8 +31170,9 @@ axesValues = (
 190,
 89
 );
-interpolationWeight = 190;
-interpolationWidth = 89;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = SemiCondensedBlack;
 weightClass = 900;
 widthClass = 4;
@@ -31114,8 +31182,9 @@ axesValues = (
 26,
 79
 );
-interpolationWeight = 26;
-interpolationWidth = 79;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = CondensedThin;
 weightClass = 100;
 widthClass = 3;
@@ -31125,8 +31194,9 @@ axesValues = (
 39,
 79
 );
-interpolationWeight = 39;
-interpolationWidth = 79;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = CondensedExtraLight;
 weightClass = 200;
 widthClass = 3;
@@ -31136,8 +31206,9 @@ axesValues = (
 58,
 79
 );
-interpolationWeight = 58;
-interpolationWidth = 79;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = CondensedLight;
 weightClass = 300;
 widthClass = 3;
@@ -31147,8 +31218,9 @@ axesValues = (
 90,
 79
 );
-interpolationWeight = 90;
-interpolationWidth = 79;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = Condensed;
 widthClass = 3;
 },
@@ -31157,8 +31229,9 @@ axesValues = (
 108,
 79
 );
-interpolationWeight = 108;
-interpolationWidth = 79;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = CondensedMedium;
 weightClass = 500;
 widthClass = 3;
@@ -31168,8 +31241,9 @@ axesValues = (
 128,
 79
 );
-interpolationWeight = 128;
-interpolationWidth = 79;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = CondensedSemiBold;
 weightClass = 600;
 widthClass = 3;
@@ -31179,8 +31253,9 @@ axesValues = (
 151,
 79
 );
-interpolationWeight = 151;
-interpolationWidth = 79;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = CondensedBold;
 weightClass = 700;
 widthClass = 3;
@@ -31190,8 +31265,9 @@ axesValues = (
 169,
 79
 );
-interpolationWeight = 169;
-interpolationWidth = 79;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = CondensedExtraBold;
 weightClass = 800;
 widthClass = 3;
@@ -31201,8 +31277,9 @@ axesValues = (
 190,
 79
 );
-interpolationWeight = 190;
-interpolationWidth = 79;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = CondensedBlack;
 weightClass = 900;
 widthClass = 3;
@@ -31212,8 +31289,9 @@ axesValues = (
 26,
 70
 );
-interpolationWeight = 26;
-interpolationWidth = 70;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraCondensedThin;
 weightClass = 100;
 widthClass = 2;
@@ -31223,8 +31301,9 @@ axesValues = (
 39,
 70
 );
-interpolationWeight = 39;
-interpolationWidth = 70;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraCondensedExtraLight;
 weightClass = 200;
 widthClass = 2;
@@ -31234,8 +31313,9 @@ axesValues = (
 58,
 70
 );
-interpolationWeight = 58;
-interpolationWidth = 70;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraCondensedLight;
 weightClass = 300;
 widthClass = 2;
@@ -31245,8 +31325,9 @@ axesValues = (
 90,
 70
 );
-interpolationWeight = 90;
-interpolationWidth = 70;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraCondensed;
 widthClass = 2;
 },
@@ -31255,8 +31336,9 @@ axesValues = (
 108,
 70
 );
-interpolationWeight = 108;
-interpolationWidth = 70;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraCondensedMedium;
 weightClass = 500;
 widthClass = 2;
@@ -31266,8 +31348,9 @@ axesValues = (
 128,
 70
 );
-interpolationWeight = 128;
-interpolationWidth = 70;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraCondensedSemiBold;
 weightClass = 600;
 widthClass = 2;
@@ -31277,8 +31360,9 @@ axesValues = (
 151,
 70
 );
-interpolationWeight = 151;
-interpolationWidth = 70;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraCondensedBold;
 weightClass = 700;
 widthClass = 2;
@@ -31288,8 +31372,9 @@ axesValues = (
 169,
 70
 );
-interpolationWeight = 169;
-interpolationWidth = 70;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraCondensedExtraBold;
 weightClass = 800;
 widthClass = 2;
@@ -31299,8 +31384,9 @@ axesValues = (
 190,
 70
 );
-interpolationWeight = 190;
-interpolationWidth = 70;
+instanceInterpolations = {
+"B104C26B-E498-4044-8731-03CD50407EE8" = 1;
+};
 name = ExtraCondensedBlack;
 weightClass = 900;
 widthClass = 2;
@@ -35029,10 +35115,6 @@ value = "Copyright 2017-2022 Google Inc. All Rights Reserved.";
 );
 },
 {
-key = designerURL;
-value = "http://www.monotype.com/studio";
-},
-{
 key = designers;
 values = (
 {
@@ -35042,8 +35124,8 @@ value = "Jelle Bosma - Monotype Design Team";
 );
 },
 {
-key = licenseURL;
-value = "http://scripts.sil.org/OFL";
+key = designerURL;
+value = "http://www.monotype.com/studio";
 },
 {
 key = licenses;
@@ -35055,8 +35137,8 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 );
 },
 {
-key = manufacturerURL;
-value = "http://www.google.com/get/noto/";
+key = licenseURL;
+value = "http://scripts.sil.org/OFL";
 },
 {
 key = manufacturers;
@@ -35066,6 +35148,10 @@ language = dflt;
 value = "Monotype Imaging Inc.";
 }
 );
+},
+{
+key = manufacturerURL;
+value = "http://www.google.com/get/noto/";
 }
 );
 stems = (
