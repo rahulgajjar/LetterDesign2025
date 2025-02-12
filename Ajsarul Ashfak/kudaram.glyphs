@@ -1,0 +1,3094 @@
+{
+.appVersion = "3337";
+.formatVersion = 3;
+DisplayStrings = (
+"/rra-malayalam.below",
+"മ",
+"ദ",
+"/ya-malayalam.below",
+"ശ",
+"ു",
+"ീ",
+"അ",
+"ആ",
+"യ",
+"വ",
+"/rr_rra-malayalam",
+"/n_na-malayalam",
+"ന",
+"ധ",
+"കാറ്റ് മൃദുവായി വീശുന്നു    ",
+"ൃ",
+"ക"
+);
+date = "2025-02-08 11:28:49 +0000";
+familyName = "New Font";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem mlm2 dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature akhn;
+feature blwf;
+feature abvs;
+";
+tag = aalt;
+},
+{
+code = "";
+disabled = 1;
+tag = psts;
+},
+{
+automatic = 1;
+code = "lookupflag 0;
+script mlm2;
+lookup Akhn_malayalam {
+
+	sub ka-malayalam halant-malayalam ka-malayalam by k_ka-malayalam;
+	sub ka-malayalam halant-malayalam ta-malayalam by k_ta-malayalam;
+	sub ga-malayalam halant-malayalam na-malayalam by g_na-malayalam;
+	sub ga-malayalam halant-malayalam ma-malayalam by g_ma-malayalam;
+	sub ca-malayalam halant-malayalam ca-malayalam by c_ca-malayalam;
+	sub ja-malayalam halant-malayalam ja-malayalam by j_ja-malayalam;
+	sub ta-malayalam halant-malayalam ta-malayalam by t_ta-malayalam;
+	sub ta-malayalam halant-malayalam ma-malayalam by t_ma-malayalam;
+	sub ta-malayalam halant-malayalam sa-malayalam by t_sa-malayalam;
+	sub da-malayalam halant-malayalam da-malayalam by d_da-malayalam;
+	sub na-malayalam halant-malayalam ta-malayalam by n_ta-malayalam;
+	sub na-malayalam halant-malayalam da-malayalam by n_da-malayalam;
+	sub na-malayalam halant-malayalam na-malayalam by n_na-malayalam;
+	sub na-malayalam halant-malayalam ma-malayalam by n_ma-malayalam;
+	sub pa-malayalam halant-malayalam pa-malayalam by p_pa-malayalam;
+	sub ba-malayalam halant-malayalam ba-malayalam by b_ba-malayalam;
+	sub ma-malayalam halant-malayalam pa-malayalam by m_pa-malayalam;
+	sub ma-malayalam halant-malayalam ma-malayalam by m_ma-malayalam;
+	sub ya-malayalam halant-malayalam ya-malayalam by y_ya-malayalam;
+	sub va-malayalam halant-malayalam va-malayalam by v_va-malayalam;
+	sub ha-malayalam halant-malayalam na-malayalam by h_na-malayalam;
+	sub ha-malayalam halant-malayalam ma-malayalam by h_ma-malayalam;
+	sub nga-malayalam halant-malayalam ka-malayalam by ng_ka-malayalam;
+	sub nya-malayalam halant-malayalam ca-malayalam by ny_ca-malayalam;
+	sub nna-malayalam halant-malayalam ma-malayalam by nn_ma-malayalam;
+	sub ta-malayalam halant-malayalam tha-malayalam by t_tha-malayalam;
+	sub ta-malayalam halant-malayalam bha-malayalam by t_bha-malayalam;
+	sub da-malayalam halant-malayalam dha-malayalam by d_dha-malayalam;
+	sub na-malayalam halant-malayalam tha-malayalam by n_tha-malayalam;
+	sub na-malayalam halant-malayalam dha-malayalam by n_dha-malayalam;
+	sub sha-malayalam halant-malayalam ca-malayalam by sh_ca-malayalam;
+	sub sa-malayalam halant-malayalam tha-malayalam by s_tha-malayalam;
+	sub nga-malayalam halant-malayalam nga-malayalam by ng_nga-malayalam;
+	sub nya-malayalam halant-malayalam nya-malayalam by ny_nya-malayalam;
+	sub tta-malayalam halant-malayalam tta-malayalam by tt_tta-malayalam;
+	sub nna-malayalam halant-malayalam tta-malayalam by nn_tta-malayalam;
+	sub nna-malayalam halant-malayalam dda-malayalam by nn_dda-malayalam;
+	sub rra-malayalam halant-malayalam rra-malayalam by rr_rra-malayalam;
+	sub lla-malayalam halant-malayalam lla-malayalam by ll_lla-malayalam;
+
+	sub ka-malayalam halant-malayalam ka-malayalam by k_ka-malayalam;
+	sub ka-malayalam halant-malayalam ta-malayalam by k_ta-malayalam;
+	sub ga-malayalam halant-malayalam na-malayalam by g_na-malayalam;
+	sub ga-malayalam halant-malayalam ma-malayalam by g_ma-malayalam;
+	sub ca-malayalam halant-malayalam ca-malayalam by c_ca-malayalam;
+	sub ja-malayalam halant-malayalam ja-malayalam by j_ja-malayalam;
+	sub ta-malayalam halant-malayalam ta-malayalam by t_ta-malayalam;
+	sub ta-malayalam halant-malayalam ma-malayalam by t_ma-malayalam;
+	sub ta-malayalam halant-malayalam sa-malayalam by t_sa-malayalam;
+	sub da-malayalam halant-malayalam da-malayalam by d_da-malayalam;
+	sub na-malayalam halant-malayalam ta-malayalam by n_ta-malayalam;
+	sub na-malayalam halant-malayalam da-malayalam by n_da-malayalam;
+	sub na-malayalam halant-malayalam na-malayalam by n_na-malayalam;
+	sub na-malayalam halant-malayalam ma-malayalam by n_ma-malayalam;
+	sub pa-malayalam halant-malayalam pa-malayalam by p_pa-malayalam;
+	sub ba-malayalam halant-malayalam ba-malayalam by b_ba-malayalam;
+	sub ma-malayalam halant-malayalam pa-malayalam by m_pa-malayalam;
+	sub ma-malayalam halant-malayalam ma-malayalam by m_ma-malayalam;
+	sub ya-malayalam halant-malayalam ya-malayalam by y_ya-malayalam;
+	sub va-malayalam halant-malayalam va-malayalam by v_va-malayalam;
+	sub ha-malayalam halant-malayalam na-malayalam by h_na-malayalam;
+	sub ha-malayalam halant-malayalam ma-malayalam by h_ma-malayalam;
+	sub nga-malayalam halant-malayalam ka-malayalam by ng_ka-malayalam;
+	sub nya-malayalam halant-malayalam ca-malayalam by ny_ca-malayalam;
+	sub nna-malayalam halant-malayalam ma-malayalam by nn_ma-malayalam;
+	sub ta-malayalam halant-malayalam tha-malayalam by t_tha-malayalam;
+	sub ta-malayalam halant-malayalam bha-malayalam by t_bha-malayalam;
+	sub da-malayalam halant-malayalam dha-malayalam by d_dha-malayalam;
+	sub na-malayalam halant-malayalam tha-malayalam by n_tha-malayalam;
+	sub na-malayalam halant-malayalam dha-malayalam by n_dha-malayalam;
+	sub sha-malayalam halant-malayalam ca-malayalam by sh_ca-malayalam;
+	sub sa-malayalam halant-malayalam tha-malayalam by s_tha-malayalam;
+	sub nga-malayalam halant-malayalam nga-malayalam by ng_nga-malayalam;
+	sub nya-malayalam halant-malayalam nya-malayalam by ny_nya-malayalam;
+	sub tta-malayalam halant-malayalam tta-malayalam by tt_tta-malayalam;
+	sub nna-malayalam halant-malayalam tta-malayalam by nn_tta-malayalam;
+	sub nna-malayalam halant-malayalam dda-malayalam by nn_dda-malayalam;
+	sub rra-malayalam halant-malayalam rra-malayalam by rr_rra-malayalam;
+	sub lla-malayalam halant-malayalam lla-malayalam by ll_lla-malayalam;
+
+	sub ka-malayalam halant-malayalam ka-malayalam by k_ka-malayalam;
+	sub ka-malayalam halant-malayalam ta-malayalam by k_ta-malayalam;
+	sub ga-malayalam halant-malayalam na-malayalam by g_na-malayalam;
+	sub ga-malayalam halant-malayalam ma-malayalam by g_ma-malayalam;
+	sub ca-malayalam halant-malayalam ca-malayalam by c_ca-malayalam;
+	sub ja-malayalam halant-malayalam ja-malayalam by j_ja-malayalam;
+	sub ta-malayalam halant-malayalam ta-malayalam by t_ta-malayalam;
+	sub ta-malayalam halant-malayalam ma-malayalam by t_ma-malayalam;
+	sub ta-malayalam halant-malayalam sa-malayalam by t_sa-malayalam;
+	sub da-malayalam halant-malayalam da-malayalam by d_da-malayalam;
+	sub na-malayalam halant-malayalam ta-malayalam by n_ta-malayalam;
+	sub na-malayalam halant-malayalam da-malayalam by n_da-malayalam;
+	sub na-malayalam halant-malayalam na-malayalam by n_na-malayalam;
+	sub na-malayalam halant-malayalam ma-malayalam by n_ma-malayalam;
+	sub pa-malayalam halant-malayalam pa-malayalam by p_pa-malayalam;
+	sub ba-malayalam halant-malayalam ba-malayalam by b_ba-malayalam;
+	sub ma-malayalam halant-malayalam pa-malayalam by m_pa-malayalam;
+	sub ma-malayalam halant-malayalam ma-malayalam by m_ma-malayalam;
+	sub ya-malayalam halant-malayalam ya-malayalam by y_ya-malayalam;
+	sub va-malayalam halant-malayalam va-malayalam by v_va-malayalam;
+	sub ha-malayalam halant-malayalam na-malayalam by h_na-malayalam;
+	sub ha-malayalam halant-malayalam ma-malayalam by h_ma-malayalam;
+	sub nga-malayalam halant-malayalam ka-malayalam by ng_ka-malayalam;
+	sub nya-malayalam halant-malayalam ca-malayalam by ny_ca-malayalam;
+	sub nna-malayalam halant-malayalam ma-malayalam by nn_ma-malayalam;
+	sub ta-malayalam halant-malayalam tha-malayalam by t_tha-malayalam;
+	sub ta-malayalam halant-malayalam bha-malayalam by t_bha-malayalam;
+	sub da-malayalam halant-malayalam dha-malayalam by d_dha-malayalam;
+	sub na-malayalam halant-malayalam tha-malayalam by n_tha-malayalam;
+	sub na-malayalam halant-malayalam dha-malayalam by n_dha-malayalam;
+	sub sha-malayalam halant-malayalam ca-malayalam by sh_ca-malayalam;
+	sub sa-malayalam halant-malayalam tha-malayalam by s_tha-malayalam;
+	sub nga-malayalam halant-malayalam nga-malayalam by ng_nga-malayalam;
+	sub nya-malayalam halant-malayalam nya-malayalam by ny_nya-malayalam;
+	sub tta-malayalam halant-malayalam tta-malayalam by tt_tta-malayalam;
+	sub nna-malayalam halant-malayalam tta-malayalam by nn_tta-malayalam;
+	sub nna-malayalam halant-malayalam dda-malayalam by nn_dda-malayalam;
+	sub rra-malayalam halant-malayalam rra-malayalam by rr_rra-malayalam;
+	sub lla-malayalam halant-malayalam lla-malayalam by ll_lla-malayalam;
+
+	sub ka-malayalam halant-malayalam ka-malayalam by k_ka-malayalam;
+	sub ka-malayalam halant-malayalam ta-malayalam by k_ta-malayalam;
+	sub ga-malayalam halant-malayalam na-malayalam by g_na-malayalam;
+	sub ga-malayalam halant-malayalam ma-malayalam by g_ma-malayalam;
+	sub ca-malayalam halant-malayalam ca-malayalam by c_ca-malayalam;
+	sub ja-malayalam halant-malayalam ja-malayalam by j_ja-malayalam;
+	sub ta-malayalam halant-malayalam ta-malayalam by t_ta-malayalam;
+	sub ta-malayalam halant-malayalam ma-malayalam by t_ma-malayalam;
+	sub ta-malayalam halant-malayalam sa-malayalam by t_sa-malayalam;
+	sub da-malayalam halant-malayalam da-malayalam by d_da-malayalam;
+	sub na-malayalam halant-malayalam ta-malayalam by n_ta-malayalam;
+	sub na-malayalam halant-malayalam da-malayalam by n_da-malayalam;
+	sub na-malayalam halant-malayalam na-malayalam by n_na-malayalam;
+	sub na-malayalam halant-malayalam ma-malayalam by n_ma-malayalam;
+	sub pa-malayalam halant-malayalam pa-malayalam by p_pa-malayalam;
+	sub ba-malayalam halant-malayalam ba-malayalam by b_ba-malayalam;
+	sub ma-malayalam halant-malayalam pa-malayalam by m_pa-malayalam;
+	sub ma-malayalam halant-malayalam ma-malayalam by m_ma-malayalam;
+	sub ya-malayalam halant-malayalam ya-malayalam by y_ya-malayalam;
+	sub va-malayalam halant-malayalam va-malayalam by v_va-malayalam;
+	sub ha-malayalam halant-malayalam na-malayalam by h_na-malayalam;
+	sub ha-malayalam halant-malayalam ma-malayalam by h_ma-malayalam;
+	sub nga-malayalam halant-malayalam ka-malayalam by ng_ka-malayalam;
+	sub nya-malayalam halant-malayalam ca-malayalam by ny_ca-malayalam;
+	sub nna-malayalam halant-malayalam ma-malayalam by nn_ma-malayalam;
+	sub ta-malayalam halant-malayalam tha-malayalam by t_tha-malayalam;
+	sub ta-malayalam halant-malayalam bha-malayalam by t_bha-malayalam;
+	sub da-malayalam halant-malayalam dha-malayalam by d_dha-malayalam;
+	sub na-malayalam halant-malayalam tha-malayalam by n_tha-malayalam;
+	sub na-malayalam halant-malayalam dha-malayalam by n_dha-malayalam;
+	sub sha-malayalam halant-malayalam ca-malayalam by sh_ca-malayalam;
+	sub sa-malayalam halant-malayalam tha-malayalam by s_tha-malayalam;
+	sub nga-malayalam halant-malayalam nga-malayalam by ng_nga-malayalam;
+	sub nya-malayalam halant-malayalam nya-malayalam by ny_nya-malayalam;
+	sub tta-malayalam halant-malayalam tta-malayalam by tt_tta-malayalam;
+	sub nna-malayalam halant-malayalam tta-malayalam by nn_tta-malayalam;
+	sub nna-malayalam halant-malayalam dda-malayalam by nn_dda-malayalam;
+	sub rra-malayalam halant-malayalam rra-malayalam by rr_rra-malayalam;
+	sub lla-malayalam halant-malayalam lla-malayalam by ll_lla-malayalam;
+
+	sub ka-malayalam halant-malayalam ka-malayalam by k_ka-malayalam;
+	sub ka-malayalam halant-malayalam ta-malayalam by k_ta-malayalam;
+	sub ga-malayalam halant-malayalam na-malayalam by g_na-malayalam;
+	sub ga-malayalam halant-malayalam ma-malayalam by g_ma-malayalam;
+	sub ca-malayalam halant-malayalam ca-malayalam by c_ca-malayalam;
+	sub ja-malayalam halant-malayalam ja-malayalam by j_ja-malayalam;
+	sub ta-malayalam halant-malayalam ta-malayalam by t_ta-malayalam;
+	sub ta-malayalam halant-malayalam ma-malayalam by t_ma-malayalam;
+	sub ta-malayalam halant-malayalam sa-malayalam by t_sa-malayalam;
+	sub da-malayalam halant-malayalam da-malayalam by d_da-malayalam;
+	sub na-malayalam halant-malayalam ta-malayalam by n_ta-malayalam;
+	sub na-malayalam halant-malayalam da-malayalam by n_da-malayalam;
+	sub na-malayalam halant-malayalam na-malayalam by n_na-malayalam;
+	sub na-malayalam halant-malayalam ma-malayalam by n_ma-malayalam;
+	sub pa-malayalam halant-malayalam pa-malayalam by p_pa-malayalam;
+	sub ba-malayalam halant-malayalam ba-malayalam by b_ba-malayalam;
+	sub ma-malayalam halant-malayalam pa-malayalam by m_pa-malayalam;
+	sub ma-malayalam halant-malayalam ma-malayalam by m_ma-malayalam;
+	sub ya-malayalam halant-malayalam ya-malayalam by y_ya-malayalam;
+	sub va-malayalam halant-malayalam va-malayalam by v_va-malayalam;
+	sub ha-malayalam halant-malayalam na-malayalam by h_na-malayalam;
+	sub ha-malayalam halant-malayalam ma-malayalam by h_ma-malayalam;
+	sub nga-malayalam halant-malayalam ka-malayalam by ng_ka-malayalam;
+	sub nya-malayalam halant-malayalam ca-malayalam by ny_ca-malayalam;
+	sub nna-malayalam halant-malayalam ma-malayalam by nn_ma-malayalam;
+	sub ta-malayalam halant-malayalam tha-malayalam by t_tha-malayalam;
+	sub ta-malayalam halant-malayalam bha-malayalam by t_bha-malayalam;
+	sub da-malayalam halant-malayalam dha-malayalam by d_dha-malayalam;
+	sub na-malayalam halant-malayalam tha-malayalam by n_tha-malayalam;
+	sub na-malayalam halant-malayalam dha-malayalam by n_dha-malayalam;
+	sub sha-malayalam halant-malayalam ca-malayalam by sh_ca-malayalam;
+	sub sa-malayalam halant-malayalam tha-malayalam by s_tha-malayalam;
+	sub nga-malayalam halant-malayalam nga-malayalam by ng_nga-malayalam;
+	sub nya-malayalam halant-malayalam nya-malayalam by ny_nya-malayalam;
+	sub tta-malayalam halant-malayalam tta-malayalam by tt_tta-malayalam;
+	sub nna-malayalam halant-malayalam tta-malayalam by nn_tta-malayalam;
+	sub nna-malayalam halant-malayalam dda-malayalam by nn_dda-malayalam;
+	sub rra-malayalam halant-malayalam rra-malayalam by rr_rra-malayalam;
+	sub lla-malayalam halant-malayalam lla-malayalam by ll_lla-malayalam;
+
+	sub ka-malayalam halant-malayalam ka-malayalam by k_ka-malayalam;
+	sub ka-malayalam halant-malayalam ta-malayalam by k_ta-malayalam;
+	sub ga-malayalam halant-malayalam na-malayalam by g_na-malayalam;
+	sub ga-malayalam halant-malayalam ma-malayalam by g_ma-malayalam;
+	sub ca-malayalam halant-malayalam ca-malayalam by c_ca-malayalam;
+	sub ja-malayalam halant-malayalam ja-malayalam by j_ja-malayalam;
+	sub ta-malayalam halant-malayalam ta-malayalam by t_ta-malayalam;
+	sub ta-malayalam halant-malayalam ma-malayalam by t_ma-malayalam;
+	sub ta-malayalam halant-malayalam sa-malayalam by t_sa-malayalam;
+	sub da-malayalam halant-malayalam da-malayalam by d_da-malayalam;
+	sub na-malayalam halant-malayalam ta-malayalam by n_ta-malayalam;
+	sub na-malayalam halant-malayalam da-malayalam by n_da-malayalam;
+	sub na-malayalam halant-malayalam na-malayalam by n_na-malayalam;
+	sub na-malayalam halant-malayalam ma-malayalam by n_ma-malayalam;
+	sub pa-malayalam halant-malayalam pa-malayalam by p_pa-malayalam;
+	sub ba-malayalam halant-malayalam ba-malayalam by b_ba-malayalam;
+	sub ma-malayalam halant-malayalam pa-malayalam by m_pa-malayalam;
+	sub ma-malayalam halant-malayalam ma-malayalam by m_ma-malayalam;
+	sub ya-malayalam halant-malayalam ya-malayalam by y_ya-malayalam;
+	sub va-malayalam halant-malayalam va-malayalam by v_va-malayalam;
+	sub ha-malayalam halant-malayalam na-malayalam by h_na-malayalam;
+	sub ha-malayalam halant-malayalam ma-malayalam by h_ma-malayalam;
+	sub nga-malayalam halant-malayalam ka-malayalam by ng_ka-malayalam;
+	sub nya-malayalam halant-malayalam ca-malayalam by ny_ca-malayalam;
+	sub nna-malayalam halant-malayalam ma-malayalam by nn_ma-malayalam;
+	sub ta-malayalam halant-malayalam tha-malayalam by t_tha-malayalam;
+	sub ta-malayalam halant-malayalam bha-malayalam by t_bha-malayalam;
+	sub da-malayalam halant-malayalam dha-malayalam by d_dha-malayalam;
+	sub na-malayalam halant-malayalam tha-malayalam by n_tha-malayalam;
+	sub na-malayalam halant-malayalam dha-malayalam by n_dha-malayalam;
+	sub sha-malayalam halant-malayalam ca-malayalam by sh_ca-malayalam;
+	sub sa-malayalam halant-malayalam tha-malayalam by s_tha-malayalam;
+	sub nga-malayalam halant-malayalam nga-malayalam by ng_nga-malayalam;
+	sub nya-malayalam halant-malayalam nya-malayalam by ny_nya-malayalam;
+	sub tta-malayalam halant-malayalam tta-malayalam by tt_tta-malayalam;
+	sub nna-malayalam halant-malayalam tta-malayalam by nn_tta-malayalam;
+	sub nna-malayalam halant-malayalam dda-malayalam by nn_dda-malayalam;
+	sub rra-malayalam halant-malayalam rra-malayalam by rr_rra-malayalam;
+	sub lla-malayalam halant-malayalam lla-malayalam by ll_lla-malayalam;
+	sub ka-malayalam halant-malayalam ssa-malayalam by k_ssa-malayalam;
+
+	sub ka-malayalam halant-malayalam ka-malayalam by k_ka-malayalam;
+	sub ka-malayalam halant-malayalam ta-malayalam by k_ta-malayalam;
+	sub ga-malayalam halant-malayalam na-malayalam by g_na-malayalam;
+	sub ga-malayalam halant-malayalam ma-malayalam by g_ma-malayalam;
+	sub ca-malayalam halant-malayalam ca-malayalam by c_ca-malayalam;
+	sub ja-malayalam halant-malayalam ja-malayalam by j_ja-malayalam;
+	sub ta-malayalam halant-malayalam ta-malayalam by t_ta-malayalam;
+	sub ta-malayalam halant-malayalam ma-malayalam by t_ma-malayalam;
+	sub ta-malayalam halant-malayalam sa-malayalam by t_sa-malayalam;
+	sub da-malayalam halant-malayalam da-malayalam by d_da-malayalam;
+	sub na-malayalam halant-malayalam ta-malayalam by n_ta-malayalam;
+	sub na-malayalam halant-malayalam da-malayalam by n_da-malayalam;
+	sub na-malayalam halant-malayalam na-malayalam by n_na-malayalam;
+	sub na-malayalam halant-malayalam ma-malayalam by n_ma-malayalam;
+	sub pa-malayalam halant-malayalam pa-malayalam by p_pa-malayalam;
+	sub ba-malayalam halant-malayalam ba-malayalam by b_ba-malayalam;
+	sub ma-malayalam halant-malayalam pa-malayalam by m_pa-malayalam;
+	sub ma-malayalam halant-malayalam ma-malayalam by m_ma-malayalam;
+	sub ya-malayalam halant-malayalam ya-malayalam by y_ya-malayalam;
+	sub va-malayalam halant-malayalam va-malayalam by v_va-malayalam;
+	sub ha-malayalam halant-malayalam na-malayalam by h_na-malayalam;
+	sub ha-malayalam halant-malayalam ma-malayalam by h_ma-malayalam;
+	sub nga-malayalam halant-malayalam ka-malayalam by ng_ka-malayalam;
+	sub nya-malayalam halant-malayalam ca-malayalam by ny_ca-malayalam;
+	sub nna-malayalam halant-malayalam ma-malayalam by nn_ma-malayalam;
+	sub ta-malayalam halant-malayalam tha-malayalam by t_tha-malayalam;
+	sub ta-malayalam halant-malayalam bha-malayalam by t_bha-malayalam;
+	sub da-malayalam halant-malayalam dha-malayalam by d_dha-malayalam;
+	sub na-malayalam halant-malayalam tha-malayalam by n_tha-malayalam;
+	sub na-malayalam halant-malayalam dha-malayalam by n_dha-malayalam;
+	sub sha-malayalam halant-malayalam ca-malayalam by sh_ca-malayalam;
+	sub sa-malayalam halant-malayalam tha-malayalam by s_tha-malayalam;
+	sub nga-malayalam halant-malayalam nga-malayalam by ng_nga-malayalam;
+	sub nya-malayalam halant-malayalam nya-malayalam by ny_nya-malayalam;
+	sub tta-malayalam halant-malayalam tta-malayalam by tt_tta-malayalam;
+	sub nna-malayalam halant-malayalam tta-malayalam by nn_tta-malayalam;
+	sub nna-malayalam halant-malayalam dda-malayalam by nn_dda-malayalam;
+	sub rra-malayalam halant-malayalam rra-malayalam by rr_rra-malayalam;
+	sub lla-malayalam halant-malayalam lla-malayalam by ll_lla-malayalam;
+	sub ja-malayalam halant-malayalam nya-malayalam by j_nya-malayalam;
+
+	sub ka-malayalam halant-malayalam ka-malayalam by k_ka-malayalam;
+	sub ka-malayalam halant-malayalam ta-malayalam by k_ta-malayalam;
+	sub ga-malayalam halant-malayalam na-malayalam by g_na-malayalam;
+	sub ga-malayalam halant-malayalam ma-malayalam by g_ma-malayalam;
+	sub ca-malayalam halant-malayalam ca-malayalam by c_ca-malayalam;
+	sub ja-malayalam halant-malayalam ja-malayalam by j_ja-malayalam;
+	sub ta-malayalam halant-malayalam ta-malayalam by t_ta-malayalam;
+	sub ta-malayalam halant-malayalam ma-malayalam by t_ma-malayalam;
+	sub ta-malayalam halant-malayalam sa-malayalam by t_sa-malayalam;
+	sub da-malayalam halant-malayalam da-malayalam by d_da-malayalam;
+	sub na-malayalam halant-malayalam ta-malayalam by n_ta-malayalam;
+	sub na-malayalam halant-malayalam da-malayalam by n_da-malayalam;
+	sub na-malayalam halant-malayalam na-malayalam by n_na-malayalam;
+	sub na-malayalam halant-malayalam ma-malayalam by n_ma-malayalam;
+	sub pa-malayalam halant-malayalam pa-malayalam by p_pa-malayalam;
+	sub ba-malayalam halant-malayalam ba-malayalam by b_ba-malayalam;
+	sub ma-malayalam halant-malayalam pa-malayalam by m_pa-malayalam;
+	sub ma-malayalam halant-malayalam ma-malayalam by m_ma-malayalam;
+	sub ya-malayalam halant-malayalam ya-malayalam by y_ya-malayalam;
+	sub va-malayalam halant-malayalam va-malayalam by v_va-malayalam;
+	sub ha-malayalam halant-malayalam na-malayalam by h_na-malayalam;
+	sub ha-malayalam halant-malayalam ma-malayalam by h_ma-malayalam;
+	sub nga-malayalam halant-malayalam ka-malayalam by ng_ka-malayalam;
+	sub nya-malayalam halant-malayalam ca-malayalam by ny_ca-malayalam;
+	sub nna-malayalam halant-malayalam ma-malayalam by nn_ma-malayalam;
+	sub ta-malayalam halant-malayalam tha-malayalam by t_tha-malayalam;
+	sub ta-malayalam halant-malayalam bha-malayalam by t_bha-malayalam;
+	sub da-malayalam halant-malayalam dha-malayalam by d_dha-malayalam;
+	sub na-malayalam halant-malayalam tha-malayalam by n_tha-malayalam;
+	sub na-malayalam halant-malayalam dha-malayalam by n_dha-malayalam;
+	sub sha-malayalam halant-malayalam ca-malayalam by sh_ca-malayalam;
+	sub sa-malayalam halant-malayalam tha-malayalam by s_tha-malayalam;
+	sub nga-malayalam halant-malayalam nga-malayalam by ng_nga-malayalam;
+	sub nya-malayalam halant-malayalam nya-malayalam by ny_nya-malayalam;
+	sub tta-malayalam halant-malayalam tta-malayalam by tt_tta-malayalam;
+	sub nna-malayalam halant-malayalam tta-malayalam by nn_tta-malayalam;
+	sub nna-malayalam halant-malayalam dda-malayalam by nn_dda-malayalam;
+	sub rra-malayalam halant-malayalam rra-malayalam by rr_rra-malayalam;
+	sub lla-malayalam halant-malayalam lla-malayalam by ll_lla-malayalam;
+} Akhn_malayalam;
+";
+tag = akhn;
+},
+{
+automatic = 1;
+code = "script mlm2;
+sub halant-malayalam ba-malayalam by ba-malayalam.below;
+sub halant-malayalam bha-malayalam by bha-malayalam.below;
+sub halant-malayalam ca-malayalam by ca-malayalam.below;
+sub halant-malayalam cha-malayalam by cha-malayalam.below;
+sub halant-malayalam da-malayalam by da-malayalam.below;
+sub halant-malayalam dda-malayalam by dda-malayalam.below;
+sub halant-malayalam ddha-malayalam by ddha-malayalam.below;
+sub halant-malayalam dha-malayalam by dha-malayalam.below;
+sub halant-malayalam ga-malayalam by ga-malayalam.below;
+sub halant-malayalam gha-malayalam by gha-malayalam.below;
+sub halant-malayalam ha-malayalam by ha-malayalam.below;
+sub halant-malayalam ja-malayalam by ja-malayalam.below;
+sub halant-malayalam jha-malayalam by jha-malayalam.below;
+sub halant-malayalam ka-malayalam by ka-malayalam.below;
+sub halant-malayalam kha-malayalam by kha-malayalam.below;
+sub halant-malayalam la-malayalam by la-malayalam.below;
+sub halant-malayalam lla-malayalam by lla-malayalam.below;
+sub halant-malayalam llla-malayalam by llla-malayalam.below;
+sub halant-malayalam ma-malayalam by ma-malayalam.below;
+sub halant-malayalam na-malayalam by na-malayalam.below;
+sub halant-malayalam nga-malayalam by nga-malayalam.below;
+sub halant-malayalam nna-malayalam by nna-malayalam.below;
+sub halant-malayalam nnna-malayalam by nnna-malayalam.below;
+sub halant-malayalam nya-malayalam by nya-malayalam.below;
+sub halant-malayalam pa-malayalam by pa-malayalam.below;
+sub halant-malayalam pha-malayalam by pha-malayalam.below;
+sub halant-malayalam rra-malayalam by rra-malayalam.below;
+sub halant-malayalam sa-malayalam by sa-malayalam.below;
+sub halant-malayalam sha-malayalam by sha-malayalam.below;
+sub halant-malayalam ssa-malayalam by ssa-malayalam.below;
+sub halant-malayalam ta-malayalam by ta-malayalam.below;
+sub halant-malayalam tha-malayalam by tha-malayalam.below;
+sub halant-malayalam tta-malayalam by tta-malayalam.below;
+sub halant-malayalam ttha-malayalam by ttha-malayalam.below;
+sub halant-malayalam ttta-malayalam by ttta-malayalam.below;
+sub halant-malayalam va-malayalam by va-malayalam.below;
+sub halant-malayalam ya-malayalam by ya-malayalam.below;
+";
+tag = blwf;
+},
+{
+automatic = 1;
+code = "script mlm2;
+lookup Abvs1_malayalam {
+	sub uMatra-malayalam halant-malayalam by uMatra_halant-malayalam;
+} Abvs1_malayalam;
+";
+tag = abvs;
+}
+);
+fontMaster = (
+{
+guides = (
+{
+angle = 270;
+pos = (1141.2,480);
+},
+{
+locked = 1;
+pos = (166.2,240);
+},
+{
+angle = 270;
+locked = 1;
+pos = (213.6,222);
+},
+{
+locked = 1;
+pos = (249,360);
+},
+{
+locked = 1;
+pos = (450,310.8);
+},
+{
+angle = 270;
+locked = 1;
+pos = (379.8,268.8);
+},
+{
+locked = 1;
+pos = (450,430.8);
+},
+{
+angle = 270;
+locked = 1;
+pos = (700.2,286.8);
+},
+{
+locked = 1;
+pos = (446.4,192.6);
+},
+{
+locked = 1;
+pos = (465.6,47.4);
+},
+{
+locked = 1;
+pos = (540,0);
+},
+{
+angle = 270;
+locked = 1;
+pos = (1080,0);
+},
+{
+angle = 270;
+locked = 1;
+},
+{
+locked = 1;
+pos = (332.4,480);
+},
+{
+angle = 270;
+locked = 1;
+pos = (332.4,430.8);
+},
+{
+angle = 270;
+locked = 1;
+pos = (866.4,222);
+},
+{
+angle = 270;
+locked = 1;
+pos = (913.8,240);
+},
+{
+angle = 235.307;
+locked = 1;
+pos = (562.8,730.2);
+},
+{
+angle = -235.307;
+locked = 1;
+pos = (510,736.8);
+},
+{
+locked = 1;
+pos = (540,780);
+},
+{
+angle = 235.3068;
+locked = 1;
+pos = (540,780);
+},
+{
+angle = -55.307;
+locked = 1;
+pos = (540,780);
+},
+{
+locked = 1;
+pos = (539.4,759);
+},
+{
+angle = 270;
+locked = 1;
+pos = (166.2,240);
+},
+{
+angle = 235.307;
+locked = 1;
+pos = (688.2,480.6);
+},
+{
+angle = 235.307;
+locked = 1;
+pos = (682.2,385.2);
+},
+{
+angle = 270;
+locked = 1;
+pos = (831,360);
+},
+{
+angle = -235.307;
+pos = (913.8,759);
+},
+{
+angle = 235.307;
+locked = 1;
+pos = (627.6,480);
+}
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = -16;
+},
+{
+over = 16;
+pos = -200;
+}
+);
+name = Regular;
+userData = {
+GSOffsetHorizontal = 10;
+GSOffsetProportional = 1;
+GSOffsetVertical = 1;
+};
+}
+);
+glyphs = (
+{
+glyphname = "a-malayalam";
+lastChange = "2025-02-10 07:46:14 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(382.8,192.6,l),
+(253.8,192.6,l),
+(335.4,310.8,l),
+(124.2,310.8,l),
+(67.8,229.2,l),
+(67.8,0,l),
+(0,0,l),
+(0,253.2,l),
+(14.4,274.2,o),
+(29.4,295.8,o),
+(43.2,315.6,cs),
+(58.2,337.2,o),
+(73.2,359.4,o),
+(87.6,380.4,c),
+(235.8,380.4,o),
+(315.6,380.4,o),
+(468,380.4,c),
+(385.2,260.4,l),
+(454.2,260.4,l),
+(454.2,0,l),
+(166.2,0,l),
+(166.2,57.6,l),
+(166.2,493.2,l),
+(345.6,752.4,ls),
+(370.2,789.6,o),
+(399,787.2,o),
+(422.4,752.4,cs),
+(601.8,493.2,l),
+(601.8,0,l),
+(534,0,l),
+(534,469.2,l),
+(384,686.4,l),
+(234,469.2,l),
+(234,67.8,l),
+(384,67.8,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(732.6,67.8,l),
+(771,67.8,l),
+(771,229.2,l),
+(714.6,310.8,l),
+(581.4,310.8,l),
+(581.4,380.4,l),
+(750.6,380.4,l),
+(838.8,253.2,l),
+(838.8,0,l),
+(664.8,0,l),
+(664.8,225.6,ls),
+(664.8,270.6,o),
+(732.6,270.6,o),
+(732.6,225.6,cs)
+);
+}
+);
+width = 838.8;
+}
+);
+unicode = 3333;
+},
+{
+glyphname = "aa-malayalam";
+lastChange = "2025-02-10 07:45:52 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(382.8,192.6,l),
+(253.2,192.6,l),
+(335.4,310.8,l),
+(124.2,310.8,l),
+(67.8,229.2,l),
+(67.8,0,l),
+(0,0,l),
+(0,253.2,l),
+(14.4,274.2,o),
+(29.4,295.8,o),
+(43.2,315.6,cs),
+(58.2,337.2,o),
+(73.2,359.4,o),
+(87.6,380.4,c),
+(235.8,380.4,o),
+(315.6,380.4,o),
+(468,380.4,c),
+(384.6,260.4,l),
+(454.2,260.4,l),
+(454.2,0,l),
+(166.2,0,l),
+(166.2,57.6,l),
+(166.2,493.2,l),
+(345.6,752.4,ls),
+(370.2,789.6,o),
+(399,787.2,o),
+(422.4,752.4,cs),
+(601.8,493.2,l),
+(601.8,0,l),
+(534,0,l),
+(534,469.2,l),
+(384,686.4,l),
+(234,469.2,l),
+(234,67.8,l),
+(384,67.8,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(829.2,232.8,l),
+(732.6,92.4,l),
+(732.6,67.8,l),
+(771,67.8,l),
+(771,229.2,l),
+(714.6,310.8,l),
+(581.4,310.8,l),
+(581.4,380.4,l),
+(750.6,380.4,l),
+(838.8,253.2,l),
+(838.8,0,l),
+(664.8,0,l),
+(664.8,39.6,o),
+(664.8,78,o),
+(664.8,117,c),
+(672.6,128.4,o),
+(688.2,150.6,o),
+(705.6,175.8,cs),
+(732.6,214.8,o),
+(765.6,262.2,o),
+(790.2,298.2,cs),
+(814.8,335.4,o),
+(843.6,333,o),
+(867,298.2,cs),
+(991.2,118.8,l),
+(991.8,-82.8,l),
+(826.8,-82.8,l),
+(826.8,-15,l),
+(923.4,-15,l),
+(923.4,94.2,l)
+);
+}
+);
+width = 991.8;
+}
+);
+unicode = 3334;
+},
+{
+glyphname = "i-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3335;
+},
+{
+glyphname = "ii-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3336;
+},
+{
+glyphname = "u-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3337;
+},
+{
+glyphname = "uu-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3338;
+},
+{
+glyphname = "rVocalic-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3339;
+},
+{
+glyphname = "lVocalic-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3340;
+},
+{
+glyphname = "e-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3342;
+},
+{
+glyphname = "ee-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3343;
+},
+{
+glyphname = "ai-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3344;
+},
+{
+glyphname = "o-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3346;
+},
+{
+glyphname = "oo-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3347;
+},
+{
+glyphname = "au-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3348;
+},
+{
+glyphname = "ka-malayalam";
+lastChange = "2025-02-10 15:50:05 +0000";
+layers = (
+{
+guides = (
+{
+angle = 270;
+pos = (1141.2,480);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(787.8,253.2,l),
+(787.8,0,l),
+(720,0,l),
+(720,229.2,l),
+(663.6,310.8,l),
+(144,310.8,l),
+(87.6,229.2,l),
+(87.6,0,l),
+(19.8,0,l),
+(19.8,253.2,l),
+(107.4,380.4,l),
+(699.6,380.4,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(621.6,0,l),
+(49.8,0,l),
+(49.8,67.8,l),
+(186,67.8,l),
+(186,493.2,l),
+(365.4,752.4,ls),
+(390,789.6,o),
+(418.8,787.2,o),
+(442.2,752.4,cs),
+(621.6,493.2,l),
+(621.6,47.4,l),
+(553.8,47.4,l),
+(553.8,469.2,l),
+(403.8,686.4,l),
+(253.8,469.2,l),
+(253.8,67.8,l),
+(564,67.8,l),
+(577.2,67.8,l),
+(597.6,67.8,l),
+(621.6,67.8,l)
+);
+}
+);
+vertOrigin = 40.8;
+vertWidth = 959.4;
+width = 807.6;
+}
+);
+unicode = 3349;
+},
+{
+glyphname = "kha-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3350;
+},
+{
+glyphname = "ga-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3351;
+},
+{
+glyphname = "gha-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3352;
+},
+{
+glyphname = "nga-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3353;
+},
+{
+glyphname = "ca-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3354;
+},
+{
+glyphname = "cha-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3355;
+},
+{
+glyphname = "ja-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3356;
+},
+{
+glyphname = "jha-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3357;
+},
+{
+glyphname = "nya-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3358;
+},
+{
+glyphname = "tta-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3359;
+},
+{
+glyphname = "ttha-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3360;
+},
+{
+glyphname = "dda-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3361;
+},
+{
+glyphname = "ddha-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3362;
+},
+{
+glyphname = "nna-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3363;
+},
+{
+glyphname = "ta-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3364;
+},
+{
+glyphname = "tha-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3365;
+},
+{
+glyphname = "da-malayalam";
+lastChange = "2025-02-10 15:51:48 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(546.6,481.2,l),
+(403.8,686.4,l),
+(87.6,229.2,l),
+(87.6,0,l),
+(19.8,0,l),
+(19.8,253.2,l),
+(365.4,752.4,ls),
+(388.8,787.2,o),
+(417.6,789.6,o),
+(442.2,752.4,cs),
+(630.6,480,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(546.6,481.2,l),
+(630.6,480,l),
+(560.4,380.4,l),
+(704.4,380.4,l),
+(704.4,0,l),
+(393.6,0,l),
+(393.6,67.8,l),
+(636.6,67.8,l),
+(636.6,310.8,l),
+(495,310.8,l),
+(427.8,310.8,l)
+);
+}
+);
+vertOrigin = 40.8;
+vertWidth = 959.4;
+width = 724.2;
+}
+);
+unicode = 3366;
+},
+{
+glyphname = "dha-malayalam";
+lastChange = "2025-02-10 10:40:30 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(97.8,334.2,l),
+(97.8,67.8,l),
+(647.4,67.8,l),
+(647.4,0,l),
+(97.8,0,l),
+(30,0,l),
+(30,358.2,l),
+(309,762,ls),
+(337.8,802.8,o),
+(393.6,762,o),
+(369,726.6,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(381.6,611.4,o),
+(447.6,609,o),
+(447.6,565.8,cs),
+(447.6,0,l),
+(379.8,0,l),
+(381.6,565.8,ls)
+);
+},
+{
+closed = 1;
+nodes = (
+(715.2,242.4,l),
+(715.2,0,l),
+(647.4,0,l),
+(647.4,223.8,l),
+(543,371.4,ls),
+(514.2,412.2,o),
+(570,447,o),
+(594.6,412.8,cs)
+);
+}
+);
+width = 745.2;
+}
+);
+unicode = 3367;
+},
+{
+glyphname = "na-malayalam";
+lastChange = "2025-02-10 10:40:30 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(347.4,0,l),
+(345.6,587.4,l),
+(414,686.4,l),
+(647.4,348.6,l),
+(647.4,0,l),
+(715.2,0,l),
+(715.2,372.6,l),
+(452.4,752.4,ls),
+(429,787.2,o),
+(400.2,789.6,o),
+(375.6,752.4,cs),
+(279.6,613.8,l),
+(279.6,346.8,l),
+(224.4,427.2,ls),
+(205.2,455.4,o),
+(174.6,462,o),
+(150.6,427.2,cs),
+(30,253.2,l),
+(30,0,l),
+(97.8,0,l),
+(97.8,234.6,l),
+(187.8,364.8,l),
+(279.6,231,l),
+(279.6,0,l)
+);
+}
+);
+width = 745.2;
+}
+);
+unicode = 3368;
+},
+{
+glyphname = "nnna-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3369;
+},
+{
+glyphname = "pa-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3370;
+},
+{
+glyphname = "pha-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3371;
+},
+{
+glyphname = "ba-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3372;
+},
+{
+glyphname = "bha-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3373;
+},
+{
+glyphname = "ma-malayalam";
+lastChange = "2025-02-10 15:51:19 +0000";
+layers = (
+{
+guides = (
+{
+pos = (2322,1038);
+},
+{
+pos = (2340,-277.2);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(623.4,489.6,l),
+(540.6,369.6,l),
+(621.6,253.2,l),
+(621.6,0,l),
+(553.8,53.4,l),
+(553.8,228.6,l),
+(498.6,309,l),
+(331.8,67.2,l),
+(568.2,67.2,l),
+(621.6,0,l),
+(66.6,0,l),
+(66.6,67.2,l),
+(247.2,67.2,l),
+(546.6,500.4,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(543.6,484.8,l),
+(403.8,685.8,l),
+(87.6,228.6,l),
+(87.6,0,l),
+(19.8,0,l),
+(19.8,253.2,l),
+(365.4,752.4,ls),
+(388.8,786.6,o),
+(417,788.4,o),
+(442.2,752.4,cs),
+(623.4,489.6,l)
+);
+}
+);
+vertOrigin = 40.8;
+vertWidth = 959.4;
+width = 643.2;
+}
+);
+unicode = 3374;
+},
+{
+glyphname = "ya-malayalam";
+lastChange = "2025-02-10 15:53:58 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(568.2,67.8,l),
+(637.2,67.8,l),
+(637.2,243,ls),
+(637.2,284.4,o),
+(705,284.4,o),
+(705,243,cs),
+(705,0,l),
+(528.6,0,l),
+(315.6,310.8,l),
+(87.6,310.8,l),
+(87.6,0,l),
+(19.8,0,l),
+(19.8,380.4,l),
+(352.2,380.4,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(113.4,67.8,l),
+(160.8,67.8,l),
+(160.8,57.6,l),
+(160.8,57.6,l),
+(160.8,67.8,l),
+(398.4,67.8,l),
+(456,67.8,l),
+(456,37.8,l),
+(456,0,l),
+(19.8,0,l),
+(19.8,67.8,l),
+(113.4,67.8,l),
+(113.4,57.6,l),
+(113.4,57.6,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(103.2,310.8,l),
+(103.2,493.2,l),
+(282.6,752.4,ls),
+(307.2,789.6,o),
+(336,787.2,o),
+(359.4,752.4,cs),
+(456,613.2,l),
+(456,47.4,l),
+(388.2,47.4,l),
+(388.8,588,l),
+(321,686.4,l),
+(171,469.2,l),
+(171,310.8,l)
+);
+}
+);
+vertOrigin = 40.8;
+vertWidth = 959.4;
+width = 724.8;
+}
+);
+unicode = 3375;
+},
+{
+glyphname = "ra-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3376;
+},
+{
+glyphname = "rra-malayalam";
+lastChange = "2025-02-10 10:40:30 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(631.8,493.2,l),
+(452.4,752.4,ls),
+(427.8,789.6,o),
+(399,787.2,o),
+(375.6,752.4,cs),
+(30,253.2,l),
+(30,0,l),
+(97.8,0,l),
+(97.8,229.2,l),
+(414,686.4,l),
+(564,469.2,l),
+(564,0,l),
+(631.8,0,l)
+);
+}
+);
+width = 661.8;
+}
+);
+unicode = 3377;
+},
+{
+glyphname = "la-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3378;
+},
+{
+glyphname = "lla-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3379;
+},
+{
+glyphname = "llla-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3380;
+},
+{
+glyphname = "va-malayalam";
+lastChange = "2025-02-10 15:52:17 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(538.8,67.8,l),
+(705,67.8,l),
+(705,0,l),
+(528.6,0,l),
+(471,0,l),
+(471.6,588,l),
+(402.6,687.6,l),
+(87.6,229.2,l),
+(87.6,0,l),
+(19.8,0,l),
+(19.8,84.6,o),
+(19.8,168.6,o),
+(19.8,253.2,c),
+(365.4,752.4,ls),
+(388.8,787.2,o),
+(417.6,789.6,o),
+(442.2,752.4,cs),
+(538.8,613.2,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(637.2,147.6,o),
+(637.2,250.2,o),
+(637.2,351,cs),
+(637.2,392.4,o),
+(705,392.4,o),
+(705,351,cs),
+(705,46.2,l),
+(637.2,46.2,l)
+);
+}
+);
+vertOrigin = 40.8;
+vertWidth = 959.4;
+width = 724.8;
+}
+);
+unicode = 3381;
+},
+{
+glyphname = "sha-malayalam";
+lastChange = "2025-02-10 16:09:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+);
+},
+{
+closed = 1;
+nodes = (
+(216.6,536.4,o),
+(268.2,497.4,o),
+(244.8,462.6,cs),
+(87.6,235.2,l),
+(87.6,67.2,l),
+(363.6,67.2,l),
+(363.6,690.6,ls),
+(363.6,706.8,o),
+(363.6,721.2,o),
+(363.6,738,cs),
+(364.8,778.2,o),
+(417.6,788.4,o),
+(442.2,752.4,cs),
+(787.8,253.2,l),
+(787.8,0,l),
+(601.2,0,l),
+(601.2,223.8,ls),
+(601.2,268.8,o),
+(669,267.6,o),
+(669,223.8,cs),
+(669,67.2,l),
+(720,67.2,l),
+(720,237,l),
+(431.4,655.8,l),
+(431.4,0,l),
+(279,0,l),
+(19.8,0,l),
+(19.8,253.2,l),
+(187.8,495.6,ls)
+);
+}
+);
+vertOrigin = 45;
+vertWidth = 955.2;
+width = 807.6;
+}
+);
+unicode = 3382;
+},
+{
+glyphname = "ssa-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3383;
+},
+{
+glyphname = "sa-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3384;
+},
+{
+glyphname = "ha-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3385;
+},
+{
+glyphname = "ttta-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3386;
+},
+{
+glyphname = "avagraha-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3389;
+},
+{
+glyphname = "dotreph-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3406;
+},
+{
+glyphname = "rrVocalic-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3424;
+},
+{
+glyphname = "llVocalic-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3425;
+},
+{
+glyphname = "nnChillu-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3450;
+},
+{
+glyphname = "nChillu-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3451;
+},
+{
+glyphname = "rrChillu-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3452;
+},
+{
+glyphname = "lChillu-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3453;
+},
+{
+glyphname = "llChillu-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3454;
+},
+{
+glyphname = "kChillu-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 3455;
+},
+{
+glyphname = "ka-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "ga-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "gha-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "nga-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "ca-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "cha-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "ja-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "jha-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "nya-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "tta-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "ttha-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "dda-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "ddha-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "nna-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "ta-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "tha-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "da-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "dha-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "na-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "nnna-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "pa-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "pha-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "ba-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "bha-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "ma-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "ya-malayalam.below";
+lastChange = "2025-02-10 07:43:38 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(548.4,67.8,l),
+(617.4,67.8,l),
+(617.4,243,ls),
+(617.4,284.4,o),
+(685.2,284.4,o),
+(685.2,243,cs),
+(685.2,0,l),
+(508.8,0,l),
+(295.8,310.8,l),
+(67.8,310.8,l),
+(67.8,0,l),
+(0,0,l),
+(0,380.4,l),
+(332.4,380.4,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(93.6,67.8,l),
+(141,67.8,l),
+(141,57.6,l),
+(141,57.6,l),
+(141,67.8,l),
+(378.6,67.8,l),
+(436.2,67.8,l),
+(436.2,37.8,l),
+(436.2,0,l),
+(0,0,l),
+(0,67.8,l),
+(93.6,67.8,l),
+(93.6,57.6,l),
+(93.6,57.6,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(83.4,310.8,l),
+(83.4,493.2,l),
+(262.8,752.4,ls),
+(287.4,789.6,o),
+(316.2,787.2,o),
+(339.6,752.4,cs),
+(436.2,613.2,l),
+(436.2,47.4,l),
+(368.4,47.4,l),
+(369,588,l),
+(301.2,686.4,l),
+(151.2,469.2,l),
+(151.2,310.8,l)
+);
+}
+);
+vertOrigin = 40.8;
+vertWidth = 959.4;
+width = 685.2;
+}
+);
+},
+{
+glyphname = "rra-malayalam.below";
+lastChange = "2025-02-10 07:43:54 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(601.8,493.2,l),
+(422.4,752.4,ls),
+(397.8,789.6,o),
+(369,787.2,o),
+(345.6,752.4,cs),
+(0,253.2,l),
+(0,0,l),
+(67.8,0,l),
+(67.8,229.2,l),
+(384,686.4,l),
+(534,469.2,l),
+(534,0,l),
+(601.8,0,l)
+);
+}
+);
+vertOrigin = 40.8;
+vertWidth = 959.4;
+width = 601.8;
+}
+);
+},
+{
+glyphname = "la-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "lla-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "llla-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "va-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "sha-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "ssa-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "sa-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "ha-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "ttta-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "ra_uMatra-malayalam";
+lastChange = "2025-02-09 20:11:35 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(162.6,470.4,l),
+(162,47.4,l),
+(62.4,47.4,l),
+(61.8,-199.8,l),
+(292.8,-199.8,l),
+(292.8,-73.8,l),
+(209.4,47.4,l),
+(210,480,l),
+(40.2,725.4,ls),
+(23.4,748.8,o),
+(-14.4,726,o),
+(5.4,698.4,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(245.4,-152.4,l),
+(109.2,-152.4,l),
+(109.2,0,l),
+(189,0,l),
+(245.4,-82.8,l)
+);
+}
+);
+width = 292.8;
+}
+);
+},
+{
+glyphname = "k_ka-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "k_ta-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "k_ssa-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "g_na-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "g_ma-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "ng_ka-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "ng_nga-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "c_ca-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "j_ja-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "j_nya-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "ny_ca-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "ny_nya-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "tt_tta-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "nn_tta-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "nn_dda-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "nn_ma-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "t_ta-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "t_tha-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "t_bha-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "t_ma-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "t_sa-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "d_da-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "d_dha-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "n_ta-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "n_tha-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "n_da-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "n_dha-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "n_na-malayalam";
+lastChange = "2025-02-10 16:10:25 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(705,372.6,l),
+(442.2,752.4,ls),
+(418.8,787.2,o),
+(390,789.6,o),
+(365.4,752.4,cs),
+(269.4,613.8,l),
+(269.4,346.8,l),
+(214.2,427.2,ls),
+(195,455.4,o),
+(164.4,462,o),
+(140.4,427.2,cs),
+(19.8,253.2,l),
+(19.8,0,l),
+(87.6,0,l),
+(87.6,234.6,l),
+(177.6,364.8,l),
+(269.4,231,l),
+(269.4,0,l),
+(337.2,0,l),
+(335.4,587.4,l),
+(403.8,686.4,l),
+(637.2,348.6,l),
+(637.2,0,l),
+(705,0,l),
+(705,231.6,l),
+(796.8,364.8,l),
+(886.8,234.6,l),
+(886.8,0,l),
+(954.6,0,l),
+(954.6,253.2,l),
+(834,427.2,ls),
+(810,462,o),
+(779.4,455.4,o),
+(760.2,427.2,cs),
+(705,346.8,l)
+);
+}
+);
+width = 974.4;
+}
+);
+},
+{
+glyphname = "n_ma-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "p_pa-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "b_ba-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "m_pa-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "m_ma-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "y_ya-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "rr_rra-malayalam";
+lastChange = "2025-02-10 15:50:23 +0000";
+layers = (
+{
+guides = (
+{
+pos = (2089.8,-280.2);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(621.6,493.2,l),
+(442.2,752.4,ls),
+(417.6,789.6,o),
+(388.8,787.2,o),
+(365.4,752.4,cs),
+(19.8,253.2,l),
+(19.8,0,l),
+(87.6,0,l),
+(87.6,229.2,l),
+(403.8,686.4,l),
+(553.8,469.2,l),
+(553.8,0,l),
+(621.6,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(553.8,94.2,l),
+(399,318,ls),
+(378,349.2,o),
+(351,349.2,o),
+(330,318,cs),
+(31.8,-112.8,l),
+(31.8,-280.8,l),
+(93,-280.8,l),
+(93,-133.8,l),
+(364.2,258,l),
+(492.6,72.6,l),
+(492.6,-280.8,l),
+(553.8,-280.8,l)
+);
+}
+);
+width = 641.4;
+}
+);
+},
+{
+glyphname = "ll_lla-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "v_va-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "sh_ca-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "s_tha-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "h_na-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "h_ma-malayalam";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = space;
+lastChange = "2025-02-10 11:15:03 +0000";
+layers = (
+{
+layerId = m01;
+width = 157.8;
+}
+);
+unicode = 32;
+},
+{
+glyphname = "candraBindu-malayalam";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 3329;
+},
+{
+glyphname = "kha-malayalam.below";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "halant-malayalam";
+lastChange = "2025-02-10 15:50:54 +0000";
+layers = (
+{
+guides = (
+{
+pos = (1951.8,1035.6);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-169.2,768,l),
+(-282,932.4,ls),
+(-304.8,966.6,o),
+(-252.6,1003.2,o),
+(-226.2,963.6,cs),
+(-199.2,924.6,o),
+(-190.2,911.4,o),
+(-177.6,892.8,cs),
+(-172.2,884.4,o),
+(-165,874.2,o),
+(-154.8,859.8,cs),
+(-149.4,852,o),
+(-144.6,844.2,o),
+(-138,834.6,c),
+(-61.2,834.6,l),
+(-61.8,859.2,o),
+(-61.8,898.2,o),
+(-61.8,973.8,cs),
+(-60.6,1021.8,o),
+(2.4,1018.8,o),
+(1.2,978.6,cs),
+(1.2,769.2,l)
+);
+}
+);
+width = 19.8;
+}
+);
+unicode = 3405;
+},
+{
+glyphname = "lVocalicMatra-malayalam";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 3426;
+},
+{
+glyphname = "llVocalicMatra-malayalam";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 3427;
+},
+{
+glyphname = "aaMatra-malayalam";
+lastChange = "2025-02-10 15:50:12 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(238.2,495,l),
+(238.8,0,l),
+(0,0,l),
+(0,67.8,l),
+(170.4,67.8,l),
+(170.4,470.4,l),
+(70.8,616.2,l),
+(0,616.2,l),
+(0,684,l),
+(108.6,684,l)
+);
+}
+);
+width = 258.6;
+}
+);
+unicode = 3390;
+},
+{
+glyphname = "iMatra-malayalam";
+lastChange = "2025-02-10 15:55:58 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-318.6,800.4,l),
+(-171.6,1011.6,ls),
+(-149.4,1043.4,o),
+(-118.2,1046.4,o),
+(-94.8,1011,cs),
+(70.8,772.2,l),
+(70.8,0,l),
+(3,0,l),
+(3,745.2,l),
+(-134.4,944.4,l),
+(-234.6,800.4,l)
+);
+}
+);
+width = 90.6;
+}
+);
+unicode = 3391;
+},
+{
+glyphname = "iiMatra-malayalam";
+lastChange = "2025-02-10 15:58:20 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,801,l),
+(147,1011.6,ls),
+(169.2,1043.4,o),
+(200.4,1046.4,o),
+(223.8,1011,cs),
+(389.4,772.2,l),
+(389.4,0,l),
+(321.6,0,l),
+(321.6,745.2,l),
+(184.2,944.4,l),
+(133.2,871.2,l),
+(192,871.2,l),
+(192,799.8,l)
+);
+}
+);
+width = 409.2;
+}
+);
+unicode = 3392;
+},
+{
+glyphname = "uMatra-malayalam";
+lastChange = "2025-02-10 16:13:03 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(105.6,477.6,l),
+(105.6,67.8,l),
+(5.4,67.8,l),
+(5.4,-199.8,l),
+(256.8,-199.8,l),
+(256.8,-60.6,l),
+(173.4,60.6,l),
+(173.4,493.2,l),
+(1.8,741,ls),
+(-22.2,775.8,o),
+(-76.8,741.6,o),
+(-49.2,702.6,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(189,-132,l),
+(73.2,-132,l),
+(73.2,0,l),
+(136.8,0,l),
+(189,-75.6,l)
+);
+}
+);
+width = 256.8;
+}
+);
+unicode = 3393;
+},
+{
+glyphname = "uMatra_halant-malayalam";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+},
+{
+glyphname = "uuMatra-malayalam";
+lastChange = "2025-02-10 09:45:45 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(162.6,477.6,l),
+(162.6,67.8,l),
+(62.4,67.8,l),
+(62.4,-199.8,l),
+(313.8,-199.8,l),
+(313.8,-60.6,l),
+(230.4,60.6,l),
+(230.4,493.2,l),
+(58.8,741,ls),
+(34.8,775.8,o),
+(-19.8,741.6,o),
+(7.8,702.6,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(246,-132,l),
+(130.2,-132,l),
+(130.2,0,l),
+(193.8,0,l),
+(246,-75.6,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(110.4,-120.6,l),
+(117,-138.6,l),
+(156.6,-139.8,l),
+(180,-133.8,l),
+(232.2,-58.2,l),
+(237.6,-48.6,l),
+(227.4,-18,l),
+(196.2,7.8,l),
+(193.8,0,l)
+);
+}
+);
+width = 313.8;
+}
+);
+unicode = 3394;
+},
+{
+glyphname = "rVocalicMatra-malayalam";
+lastChange = "2025-02-10 15:51:30 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(69,-13.2,l),
+(69,759,l),
+(1.2,759,l),
+(1.2,13.8,l),
+(1.2,-219.6,l),
+(-135.6,-219.6,l),
+(-219.6,-97.8,l),
+(-132.6,-97.8,l),
+(-132.6,-179.4,l),
+(-64.8,-179.4,l),
+(-64.8,-97.8,l),
+(-64.8,-30.6,l),
+(-351,-30.6,l),
+(-173.4,-286.8,l),
+(69,-286.8,l)
+);
+}
+);
+width = 99;
+}
+);
+unicode = 3395;
+},
+{
+glyphname = "rrVocalicMatra-malayalam";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 3396;
+},
+{
+glyphname = "eMatra-malayalam";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 3398;
+},
+{
+glyphname = "eeMatra-malayalam";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 3399;
+},
+{
+glyphname = "aiMatra-malayalam";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 3400;
+},
+{
+glyphname = "oMatra-malayalam";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 3402;
+},
+{
+glyphname = "ooMatra-malayalam";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 3403;
+},
+{
+glyphname = "auMatra-malayalam";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 3404;
+},
+{
+glyphname = "auLength-malayalam";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 3415;
+}
+);
+kerningLTR = {
+m01 = {
+"aaMatra-malayalam" = {
+"rra-malayalam" = 30;
+};
+"halant-malayalam" = {
+"aaMatra-malayalam" = -800;
+};
+"ka-malayalam" = {
+"iiMatra-malayalam" = -240;
+"rr_rra-malayalam" = 280;
+};
+"ma-malayalam" = {
+"sha-malayalam" = 49.8;
+"va-malayalam" = 30;
+"ya-malayalam" = 30;
+};
+"rr_rra-malayalam" = {
+"halant-malayalam" = 0;
+"iiMatra-malayalam" = -304;
+};
+"rra-malayalam.below" = {
+"iiMatra-malayalam" = -260;
+"uMatra-malayalam" = -30;
+};
+"sha-malayalam" = {
+"iiMatra-malayalam" = -250;
+"rra-malayalam.below" = 30;
+};
+"va-malayalam" = {
+"iiMatra-malayalam" = -318.60001;
+"rra-malayalam.below" = 30;
+"sha-malayalam" = 30;
+"uMatra-malayalam" = -30;
+};
+"ya-malayalam" = {
+"va-malayalam" = 30;
+};
+};
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = baseline;
+},
+{
+type = descender;
+}
+);
+settings = {
+gridLength = 60;
+gridSubDivision = 100;
+};
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}
