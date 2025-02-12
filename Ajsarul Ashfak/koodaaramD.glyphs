@@ -519,7 +519,7 @@ value = "Version 2.101";
 }
 );
 date = "2025-02-10 10:49:48 +0000";
-familyName = koodaaram;
+familyName = koodaaramD;
 featurePrefixes = (
 {
 code = "languagesystem mlm2 dflt; # Malayalam v.2 default
@@ -9099,18 +9099,18 @@ unicode = 3381;
 },
 {
 glyphname = shamlym;
-lastChange = "2025-02-11 18:30:20 +0000";
+lastChange = "2025-02-12 07:08:15 +0000";
 layers = (
 {
 anchors = (
 {
 name = b.uni0D00;
-pos = (619,0);
+pos = (633,0);
 }
 );
 guides = (
 {
-pos = (725,233);
+pos = (739,233);
 }
 );
 layerId = "2AD682F6-F6C7-4738-913E-50B961B61BC3";
@@ -9118,11 +9118,11 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(619,246,l),
-(619,92,l),
+(631,230,l),
+(631,92,l),
 (725,92,l),
 (725,246,l),
-(672,323,l)
+(631,386,l)
 );
 },
 {
@@ -9149,9 +9149,9 @@ nodes = (
 (469,772,cs),
 (817,270,l),
 (817,1,l),
-(527,1,l),
-(528,273,l),
-(618,402,l)
+(540,1,l),
+(540,257,l),
+(540,516,l)
 );
 }
 );
@@ -48591,6 +48591,7 @@ axesValues = (
 26,
 100
 );
+exports = 0;
 instanceInterpolations = {
 "2AD682F6-F6C7-4738-913E-50B961B61BC3" = 1;
 };
@@ -48626,7 +48627,6 @@ axesValues = (
 90,
 100
 );
-exports = 0;
 instanceInterpolations = {
 "2AD682F6-F6C7-4738-913E-50B961B61BC3" = 1;
 };
