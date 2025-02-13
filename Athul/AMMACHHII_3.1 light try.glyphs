@@ -9,14 +9,13 @@ DisplayStrings = (
 "ற",
 "ெ",
 "ி",
-"மைழ ெமதுவாக விழுகிறது
+"மைழ ெமதுவாக  விழுகிறது
 மைழமவதுவகவழகறத
 ",
 "",
 "ை",
 "வ",
-"ு",
-"்/vaprehalftamil"
+"ு"
 );
 axes = (
 {
@@ -330,7 +329,7 @@ value = 1;
 }
 );
 date = "2017-01-23 08:42:45 +0000";
-familyName = Arul_Tamil;
+familyName = Ammachhii.20Tamil;
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
@@ -570,9 +569,9 @@ stemValues = (
 161
 );
 userData = {
-GSCornerRadius = 20;
-GSOffsetHorizontal = 10;
-GSOffsetVertical = 10;
+GSCornerRadius = 80;
+GSOffsetHorizontal = -15;
+GSOffsetVertical = -15;
 };
 }
 );
@@ -631,11 +630,11 @@ unicode = 13;
 },
 {
 glyphname = space;
-lastChange = "2025-02-13 05:55:39 +0000";
+lastChange = "2020-03-17 13:07:53 +0000";
 layers = (
 {
 layerId = "DB7E4487-AAA8-4905-9B27-B72FA6056893";
-width = 300;
+width = 210;
 }
 );
 unicode = 32;
@@ -2188,7 +2187,7 @@ unicode = 2964;
 },
 {
 glyphname = katamil;
-lastChange = "2025-02-13 05:49:46 +0000";
+lastChange = "2025-02-12 07:53:49 +0000";
 layers = (
 {
 anchors = (
@@ -3265,7 +3264,7 @@ unicode = 2986;
 },
 {
 glyphname = matamil;
-lastChange = "2025-02-12 07:40:41 +0000";
+lastChange = "2025-02-12 19:33:27 +0000";
 layers = (
 {
 anchors = (
@@ -3317,56 +3316,56 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(20,90,l),
-(74,46,l),
-(108,0,l),
-(503,0,l),
-(559,33,l),
-(592,90,l)
+(62,75,l),
+(85,56,l),
+(95,15,l),
+(518,15,l),
+(548,44,l),
+(566,75,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(110,0,l),
-(111,480,ls),
-(111,493,o),
-(104,500,o),
-(91,500,cs),
-(41,500,ls),
-(28,500,o),
-(21,493,o),
-(21,480,cs),
-(20,80,ls),
-(20,28,o),
-(48,0,o),
-(100,0,cs)
+(95,15,l),
+(96,480,ls),
+(96,484,o),
+(96,485,o),
+(91,485,cs),
+(41,485,ls),
+(36,485,o),
+(36,484,o),
+(36,480,cs),
+(35,80,ls),
+(35,37,o),
+(56,15,o),
+(100,15,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(353,73,l),
-(353,391,l),
-(503,341,l),
-(502,0,l),
-(512,0,ls),
-(564,0,o),
-(592,28,o),
-(592,80,cs),
-(593,345,ls),
-(593,387,o),
-(574,412,o),
-(535,425,cs),
-(321,496,ls),
-(313,499,o),
-(306,500,o),
-(297,500,cs),
-(283,500,ls),
-(270,500,o),
-(263,493,o),
-(263,480,cs),
-(263,73,l)
+(338,75,l),
+(338,412,l),
+(518,352,l),
+(517,15,l),
+(512,15,ls),
+(556,15,o),
+(577,37,o),
+(577,80,cs),
+(578,345,ls),
+(578,379,o),
+(563,400,o),
+(530,411,cs),
+(316,482,ls),
+(310,484,o),
+(305,485,o),
+(297,485,cs),
+(283,485,ls),
+(278,485,o),
+(278,485,o),
+(278,480,cs),
+(278,75,l)
 );
 }
 );
@@ -3936,7 +3935,7 @@ unicode = 2996;
 },
 {
 glyphname = vatamil;
-lastChange = "2025-02-13 05:50:55 +0000";
+lastChange = "2025-02-12 10:56:11 +0000";
 layers = (
 {
 anchors = (
@@ -4595,7 +4594,7 @@ unicode = 3001;
 {
 category = Mark;
 glyphname = aavowelsigntamil;
-lastChange = "2025-02-13 05:51:00 +0000";
+lastChange = "2025-02-11 04:06:22 +0000";
 layers = (
 {
 layerId = "DB7E4487-AAA8-4905-9B27-B72FA6056893";
@@ -4903,7 +4902,7 @@ unicode = 3010;
 {
 category = Letter;
 glyphname = evowelsigntamil;
-lastChange = "2025-02-13 05:50:52 +0000";
+lastChange = "2025-02-12 07:30:38 +0000";
 layers = (
 {
 layerId = "DB7E4487-AAA8-4905-9B27-B72FA6056893";
@@ -5075,7 +5074,7 @@ unicode = 3015;
 {
 category = Letter;
 glyphname = aivowelsigntamil;
-lastChange = "2025-02-13 05:50:48 +0000";
+lastChange = "2025-02-12 07:53:12 +0000";
 layers = (
 {
 background = {
@@ -5313,7 +5312,7 @@ unicode = 3020;
 {
 category = Mark;
 glyphname = viramatamil;
-lastChange = "2025-02-13 07:10:50 +0000";
+lastChange = "2025-02-09 10:34:39 +0000";
 layers = (
 {
 layerId = "DB7E4487-AAA8-4905-9B27-B72FA6056893";
@@ -5321,22 +5320,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-255,656,ls),
-(-242,656,o),
-(-235,663,o),
-(-235,676,cs),
-(-234,732,ls),
-(-234,745,o),
-(-241,752,o),
-(-254,752,cs),
-(-304,752,ls),
-(-317,752,o),
-(-324,745,o),
-(-324,732,cs),
-(-325,676,ls),
-(-325,663,o),
-(-318,656,o),
-(-305,656,cs)
+(-235,656,l),
+(-234,752,l),
+(-324,752,l),
+(-325,656,l)
 );
 }
 );
@@ -10361,7 +10348,7 @@ subCategory = Other;
 {
 category = Letter;
 glyphname = tauvowelsigntamil;
-lastChange = "2025-02-13 05:50:30 +0000";
+lastChange = "2025-02-12 10:20:00 +0000";
 layers = (
 {
 guides = (
