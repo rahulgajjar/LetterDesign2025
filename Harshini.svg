@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="273.756mm" height="242.358mm"
+ viewBox="0 0 776 687"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Harshini</title>
+<desc>Generated with Qt</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="nonzero" d="M221,453 C165,453 109,406 109,348 C109,267 184,204 262,204 C322,204 374,242 374,307 C374,385 298,453 221,453 M613,492 C592,450 571,425 531,405 L588,243 L678,243 L706,174 C715,152 719,129 719,110 C719,35 660,1 580,1 L578,80 C631,75 691,96 692,143 C692,150 691,162 689,169 L453,169 L428,243 L545,243 L459,486 C445,449 423,425 391,405 C405,380 413,333 413,302 C413,216 348,159 250,159 C132,159 10,240 10,366 C10,462 92,526 183,526 C253,526 323,487 364,446 C398,452 430,487 428,517 C449,517 470,517 492,518 C499,495 508,468 517,446 C550,452 579,485 582,516 C603,517 630,517 649,517 L766,169 L730,169 L613,492"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>

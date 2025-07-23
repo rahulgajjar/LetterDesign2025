@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="193.675mm" height="256.469mm"
+ viewBox="0 0 549 727"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Shreeya</title>
+<desc>Generated with Qt</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="nonzero" d="M1,1 L548,1 L548,61 L1,61 L1,1 M161,31 L223,31 C223,168 224,228 223,368 C223,376 233,383 241,383 L294,383 L294,31 L403,31 L403,82 C403,131 404,190 360,315 C326,412 365,450 278,450 C245,450 228,450 196,450 C177,450 161,423 161,404 C161,254 161,178 161,31 M186,226 L186,295 C167,295 169,295 150,295 C111,295 112,295 112,333 C112,376 120,459 140,505 C160,553 209,602 209,693 L209,726 L48,726 L48,288 C48,226 64,226 128,226 L186,226 M360,226 C387,226 405,221 429,232 C450,242 460,260 460,284 L460,726 L392,726 L392,315 C392,305 388,294 379,294 C365,294 376,294 360,294 L360,226"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="360.892mm" height="265.994mm"
+ viewBox="0 0 1023 754"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Vartika</title>
+<desc>Generated with Qt</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="nonzero" d="M1,1 L334,1 L334,56 L333,56 L333,134 L608,46 C615,43 621,42 628,42 C641,42 655,50 655,83 L655,242 L736,211 L736,1 L1022,1 L1022,56 L891,56 L891,623 L937,676 C937,679 949,655 953,655 C984,683 1000,700 1019,719 C1021,721 1022,724 1022,727 C1022,739 1011,757 1002,752 C960,725 787,653 736,623 L736,268 L655,299 L655,493 C655,514 645,531 626,536 L536,562 C530,564 524,565 517,565 C504,565 494,560 485,551 L357,413 C352,406 349,397 349,388 C349,373 355,359 366,354 L531,290 L531,161 C531,146 526,139 515,139 C514,139 512,139 511,139 C508,139 505,139 502,141 L333,195 L333,388 C333,409 323,425 304,432 L217,458 C210,461 202,462 194,462 C183,462 173,458 165,450 L15,297 C7,289 2,275 2,262 C2,249 7,237 21,233 L203,175 L204,56 L1,56 L1,1 M480,368 C461,375 458,386 471,401 L512,446 C518,453 523,456 526,456 C531,456 533,450 533,438 L533,349 L480,368 M180,328 C186,334 191,337 195,337 C200,337 202,331 202,319 L203,237 L147,255 C126,261 124,272 140,288 L180,328"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>
